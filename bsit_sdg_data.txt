@@ -1,0 +1,820 @@
+SDG 2 — Zero Hunger 
+
+BSIT 0028 | MCU-poultry feeder and watering system 
+BSIT 0065 | Mindoro State College of Agriculture and Technology (MinSCAT) online grading system 
+BSIT 0268 | Online egg ordering system of Polido's poultry farm 
+BSIT 0382 | Management information system for First Golden Mix Agro Ventures (Bats), Inc. 
+BSIT 0392 | Inventory management system for Manuel M. Tee Agricultural Supply 
+BSIT 0394 | Management information system for the office of the City Veterinary and Agricultural Services of Batangas 
+BSIT 0416 | Record management system of municipal Agriculture Office in Ibaan, Batangas 
+BSIT 0420 | Human resource management system for Mastermix agri-products and Feedmills Corporation 
+BSIT 0421 | Online manufacturing inventory system for Wincom Feedmill Corporation 
+BSIT 0432 | Geodatabase migration and visualization tool for tax mapping of agricultural, timberland, mineral and special properties of the Batangas Provincial Assessor's Office 
+BSIT 0457 | Information system for the office of Agricultural Services in Rosario, Batangas 
+BSIT 0492 | Information graphics generation and data management system for the cooperative division of the office of the City Veterinarian and Agricultural Services Batangas City 
+BSIT 0525 | Smart farming application with smart sensors for live soil moisture and temperature monitoring 
+BSIT 0531 | San Pascual farmers organization Agri-farming and production web-based monitoring system 
+BSIT 0533 | Temperature and feeds monitoring and alarm system for Queen-Le Franz Poultry Farm 
+BSIT 0540 | Fish kill forecasting application for BFAR IV-A 
+BSIT 0562 | Web-based agriculture mapping using QGIS for Batangas province 
+BSIT 0646 | Android herbal plant identification mobile application for office of the City Veterinarian and Agricultural Services 
+BSIT 0748 | Poultry data record with data visualization of AVH poultry farm , Lapu-Lapu , Ibaan , Batangas 
+BSIT 0797 | AGRIJUAN: Online trading platform for agricultural sectors in San Juan, Batangas 
+BSIT 0810 | Mawar agri equipment trading integrated sales management system 
+BSIT 0831 | SRG (Shiera, Rio, And Gio) web-based poultry farm sales and monitoring system 
+BSIT 0837 | PAKYAWAN: web-based agricultural products 
+BSIT 0846 | IoT based farming system for ATO’s farm in Lemery, Batangas 
+BSIT 0860 | e–Agristore: a marketplace app for Nelia’s store 
+BSIT 0865 | Wager - design and development of an integrated attendance monitoring and payroll system for palay butil buhay farmers association 
+BSIT 0867 | A web application for J’s Aguba farm sales and inventory management system 
+BSIT 0879 | Maize life: design and development of a web-based system for corn disease using classification models 
+BSIT 0890 | Agrigueños: donation app for vegetables and fruits in Batangas province 
+BSIT 0909 | Data-driven farm management: designing a web-based pig farm management system with advanced analytics 
+BSIT 0926 | Agri Connect – Digitalizing the services of The City Agriculture Office 
+BSIT 0949 | IoT-Based Fecarro’s smart poultry farming 
+BSIT 0995 | Sales and inventory system with order tracking analytics for Nueva Vida Farm 
+BSIT 1001 | Weather analytics for sustainable crop production design and development of farmwise, an SMS-based crop management system for enhanced yield and efficiency 
+BSIT 1004 | Data-driven animals management system : A web-based solution for the office of the city veterinary and agricultural service’s livestock dispersal program 
+BSIT 1047 | IoT-based monitoring and automated watering system for Lolo Omas’ greenhouse lettuce farm 
+BSIT 1070 | Agritech Aquasync: web-driven smart irrigation for sustainable plant growth 
+BSIT 1143 | IoT-based rotten egg sorting device for Nancy’s fresh eggs atbp. 
+BSIT 1156 | IOT-based Automated Moisture Control and Environmental Monitoring System for Vermicomposting at Kabalikat sa Kabuhayan Farm 
+BSIT 1178 | IoT-Based soil Macronutrient Analyzer for Happy Thumb Integrated Farm 
+BSIT 1180 | IoT-Based Chicken Manure Robot Scaper for Guinhawa's Poultry 
+BSIT 1189 | IoT-Based Smart Beekeeping: Monitoring beehive Sustem for Saranhae Honey Bee Farm 
+BSIT 1195 | HATCHTECH: An Iot-Based Smart Egg Incubator 
+
+SDG 3 — Good Health and Well-being 
+
+BSIT 0049 | Information system for Bauan general hospital 
+BSIT 0057 | Online BatStateU infirmary system 
+BSIT 0113 | Batangas province dental chapter: web portal 
+BSIT 0144 | Management information system for the infirmary department of Batangas State University 
+BSIT 0147 | Jesus of Nazareth hospital employee information system 
+BSIT 0201 | Petshop inventory and accounting system for JLC VET clinic and poultry supply 
+BSIT 0215 | St. James The Greater Hospital website with online services 
+BSIT 0217 | Batangas City health office patient information system 
+BSIT 0248 | Philos Facial & Body Clinic: web-based ordering and reservation system 
+BSIT 0257 | Dental clinic management system with online appointment scheduling 
+BSIT 0258 | Inventory management for the equipment and supplies of Batangas Medical Center
+BSIT 0270 | E. B. Vergara dental management system 
+BSIT 0281 | Martin Marasigan Memorial hospital management information system 
+BSIT 0291 | Android pharmacy BSIT 0340 | Android medicine prescription and pharmacy locator 
+BSIT 0351 | Web-Based Eye clinic management system 
+BSIT 0370 | Bauan General Hospital information and supply management 
+BSIT 0386 | A web based system for Simply Dental Care Clinic 
+BSIT 0387 | Hospital management system for Mabini General Hospital 
+BSIT 0405 | Record management system for JRM Dental Clinic 
+BSIT 0408 | Pharmacy management system for Ocsan Pharma trading 
+BSIT 0446 | Patient record management system for the Rural Health Unit of Taal 
+BSIT 0464 | Disease hit map of medical supplies using geodatabase for the municipal government of Lemery 
+BSIT 0501 | Web-based management information system of dogs and cats anti-rabies vaccination OCVAS, Batangas City 
+BSIT 0522 | ISMILE: Mobile based dental appointment application 
+BSIT 0536 | Health and medical management information system for Dr. Mario Bejasa General Hospital 
+BSIT 0544 | Pediatrics online appointment and patients' records management system 
+BSIT 0563 | Municipality of Alitagtag health center information system 
+BSIT 0584 | Mobile-based doctor's appointment and other services for Doctor Mario Bejasa General Hospital 
+BSIT 0588 | Get Fit: Personalized health and wellness system 
+BSIT 0590 | Progressive web application for maternal health 
+BSIT 0604 | Inventory and sales management system for Cantos Pharmacy and Medical Enterprises 
+BSIT 0606 | BatstateU student health portal 
+BSIT 0623 | Infotext for Batangas Medical Center with customer satisfaction survey digital response form 
+BSIT 0640 | Philippine Red Cross blood donation application 
+BSIT 0654 | Asthma monitoring mobile application with portable nebulizer using raspberry PI 
+BSIT 0668 | A raspberry PI based mango disease detection using convolutional neural network 
+BSIT 0673 | Balance – a mobile based application for monitoring and evaluating user’s performance regarding healthy lifestyle 
+BSIT 0675 | Health central web-based pharmacy management system 
+BSIT 0678 | Thesis archiving system for computer studies department in Lemery colleges 
+BSIT 0686 | DrugRX: online pharmacy mobile application 
+BSIT 0695 | Marahuyo: a web-based archive system for culture and arts in Batangas province 
+BSIT 0696 | Mental health support system for Batangas State University 
+BSIT 0707 | Metro Lipa medical center outpatient management system with notification billing using QR code and SMS 
+BSIT 0719 | Appointment gateway for dental clinics in Batangas City 
+BSIT 0723 | Mobile-based appointment and consultation system for Alitagtag rural health unit 
+BSIT 0730 | Smart health companion system 
+BSIT 0732 | Web-based pharmacy management system of Winbell, Winmark and Billy pharmacy 
+BSIT 0739 | Web-based virtual nutritionist 
+BSIT 0753 | Design and development of traceph: Philippines tracing and retracing application for Covid-19 elimination 
+BSIT 0761 | Healspace case monitoring and online mental health evaluation system 
+BSIT 0768 | Digital logbook management and data visualization for Batangas State Univesity Alangilan campus clinic 
+BSIT 0771 | Kidneycare: an scheduling application for patient-to- dialysis center communication 
+BSIT 0775 | BTG dental clinic web-based app 
+BSIT 0781 | Sta. Teresita medic-line :telemedicine solution 
+BSIT 0794 | Dental appointment information management system 
+BSIT 0798 | Electronic veterinary management system for Vetmyx animal clinic 
+BSIT 0805 | Asian Institute of Computer Studies (AICS) mental health assessment and evaluation system 
+BSIT 0819 | Healthcare EDX 
+BSIT 0827 | BARAKO TOUR: an online culture preservation and archiving system for Batangas PTCAO 
+BSIT 0829 | Online management system with QR code optimization for Ogirima dental care 
+BSIT 0839 | Data automation system for anti-rabies program of OCVAS Batangas 
+BSIT 0849 | Web-Based Blood Donation Management System using QR Code for Red Cross Batangas City 
+BSIT 0853 | Doctor’s appointment system for Alitagtag rural health unit 
+BSIT 0855 | Web-based dental patient management system for Dr. Liligrace Calangi’s clinic 
+BSIT 0870 | Development of telemedicine as the new digital outpatient clinic of San Antonio life care hospital 
+BSIT 0873 | E-health: a mobile based health and nutrition application 
+BSIT 0941 | Automated alert system based on vital sign deviation for wearable IOT device 
+BSIT 0947 | Design and development of temperature and humidity monitoring system: In a pharmacy setup 
+BSIT 0954 | Lan Map: Design and implementation of a network monitoring activity for Batangas Medical Center 
+BSIT 0984 | Elder Care Alliance: A web-based donation system using payment gateways and web APIs 
+BSIT 0986 | Bangis: Batangas animal bite management gateway information system for efficient management of human rabies vaccines in the Province of Batangas 
+BSIT 0987 | Implementation of Batangas State University – TNEU mental health assessment portal 
+BSIT 0994 | Lunaslokal: A local pharmaceutical locator with comprehensive product referral 
+BSIT 1031 | A comprehensive healthcare web portal for San Antonio life care hospital with advance analytics dashboard 
+BSIT 1039 | Implementing a web-based senior citizen health and medication management system in San Jose, Batangas: leveraging a comprehensive it solution with an integrated electronic health record platform 
+BSIT 1041 | GIS-based health analytics and inventory management system for municipality of San Luis health center 
+BSIT 1051 | Dermacare Appointment System and Inventory Management System 
+BSIT 1052 | Developing a Comprehensive Mobile Application for Scheduling HIV Testing and Telemedicine Service for HIV and Aids Support House Organization (HASH) 
+BSIT 1055 | Vet Care: A Web-Based Appointment Scheduling with Inventory and Information Management System for Veterinarius Animal Clinic 
+BSIT 1059 | Streamlining Pharmaceutical Services: YenYan's Online Ordering and Management Solution 
+BSIT 1060 | Dental ease: optimizing digitalized operations through a web-based and mobile application approach for tooth talks dental clinic 
+BSIT 1067 | Enhanced Medical Services Management System of Laboratory Clinic in San Jose Batangas through Patient Appointments, Supply and Equipment Monitoring 
+BSIT 1071 | Web-system for KSY Beauty and Wellness Center: enhancing customer experience and business operations through a comprehensive mobile app 
+BSIT 1076 | Health management system with case monitoring and appointment scheduling in Batangas State University Health Service Office
+BSIT 1081 | Labsphere: optimizing imho clinical laboratory with scheduling management system and live chat for enhanced healthcare delivery 
+BSIT 1082 | Web-based inventory management system with supplies forecasting and descriptive analytics for san jose district hospital 
+BSIT 1092 | Cloud-based record and appointment management system for my dental care clinic with descriptive analytics 
+BSIT 1094 | Outpatient information management system WITH resource allocation optimization FOR united doctors OF st camillus DE lellis hospital AND medical center 
+BSIT 1106 | PharmAssist: Decision Support System for Pomona Pharmaceutical Distribution Inc. 
+BSIT 1115 | Optimizing pet care, revolutionizing service management with a mobile app for petaholic veterinary clinic featuring inventory mangement and appointment scheduling 
+BSIT 1119 | Wellzone scheduler: Integrated patient record and appointment management system with mobile-based medical result notifications 
+BSIT 1122 | Web-based patient management system with integrated messaging for ob-gyn clinic 
+BSIT 1148 | Implementation of a Role-based Data Management and Reporting System for the Batangas Medical Center Department of Surgery 
+BSIT 1158 | PHARMASYS: Web Based Pharmacy Management System With Integrated Pre Ordering System for Yvette Parmacia 
+BSIT 1161 | Smart Wellness Kiosk: An lot Solution For Quick Health Screening For Castillo's Children Clinic 
+BSIT 1163 | Pediatric Analysis System to Enhance Pediatric Patient Care for Castillo Children's Clinic 
+BSIT 1164 | GCARE CONNECT: Automated Appointment and Patient Feedback System with Sentiment Analysis Using NLP For Global Care Medical Center of Canlubang 
+BSIT 1166 | PAWS: Pet Analytics and Wellness System A Data-Driven Healthcare Insight Platform for Bath and Bark Grooming and Veterinary Services 
+BSIT 1168 | PRASIE (Patient Record, Appointments, SMS A nnouncements, Income, Expenses): Optimizing Clinic Operations With Data-Driven Insight For Dream Smile Dental Clinic 
+BSIT 1169 | Web-based Smart Inventory and Monitoring System for Blessing Pharma and Medical Supplies Trading 
+BSIT 1187 | Pharmacy Inventory and Sales Tracking Through Point of Sale Integration for Donrose Pharmacy 
+BSIT 1189 | IoT-Based Smart Beekeeping: Monitoring beehive Sustem for Saranhae Honey Bee Farm 
+BSIT 1190 | IOT-Enabled Smart Cap with chest bag for fall and seizure detection, heart rate monitoring, amd medication alert via application (calm link) for individuals with epilepsy 
+BSIT 1207 | Iot-enabled healthcare kiosk for preliminary check-up using integrated RFID health card for Batangas State University-Alangilan Students 
+
+SDG 4 — Quality Education
+ 
+BSIT 0005 | The digestive guardian: an educational game of human digestive system 
+BSIT 0006 | E-Grade submission system (EGSS) of Batangas State University 
+BSIT 0011 | Foster Wheeler library management system using KOHA 
+BSIT 0012 | Proposed wide area network design for Batangas state university using WIMAX technology 
+BSIT 0021 | A web-based information system for the guidance & counseling office of Batangas State University 
+BSIT 0030 | E-learning module on logic circuits and switching theory 
+BSIT 0038 | iCheck: An automated examination checker 
+BSIT 0043 | Information system kiosk of Batangas State University multipurpose cooperative 
+BSIT 0046 | Office of student services online system of Batangas State University 
+BSIT 0052 | Online classroom monitoring system with voice and alarm 
+BSIT 0059 | Batangas State University income generating projects online system 
+BSIT 0062 | Batangas State University online qualitative contribution evaluation (QCE) system for faculty teaching effectiveness 
+BSIT 0064 | Online test facility for Batangas State University 
+BSIT 0065 | Mindoro State College of Agriculture and Technology (MinSCAT) online grading system 
+BSIT 0067 | Batangas State University-online property and supply request monitoring system
+BSIT 0068 | Online admission test of BatStateU testing & admission office for college students 
+BSIT 0069 | "Web-based hostel reservation system of Batangas State University" 
+BSIT 0070 | Bubble trouble: an android based educational game 
+BSIT 0072 | Batangas State University employee’s information retrieval system via SMS 
+BSIT 0073 | Computerized enrollment system of public national high school 
+BSIT 0074 | BatStateU online evaluation of enrollment for ICS department 
+BSIT 0075 | Masaguitsit Banalo national high school online library management information system 
+BSIT 0086 | Kiddies Game: An android- based educational game 
+BSIT 0094 | Wifi capture server: a wireless network management and security system for Batangas State University Main campuses I and II 
+BSIT 0096 | Egg Blast Quiz Game: An android -based mobile game 
+BSIT 0119 | Space Panda: A 3D educational game 
+BSIT 0125 | Batangas State University Main Campus II Lan chat 
+BSIT 0131 | Web-based mobile class record in an android platform 
+BSIT 0132 | Online grading system of Mabini college of Batangas 
+BSIT 0135 | Bauan technical high school web portal 
+BSIT 0137 | Student management record system of Carmel School of Batangas 
+BSIT 0140 | E-learning system facilities for CICS 
+BSIT 0144 | Management information system for the infirmary department of Batangas State University 
+BSIT 0146 | Batangas State University CICS computer laboratory monitoring system 
+BSIT 0150 | Library management system of St. James academy using biometrics 
+BSIT 0152 | Enrollment queuing system of Batangas State University 
+BSIT 0154 | Banaba West national high school library management information system with QR Code reader 
+BSIT 0155 | Attendance system using RFID with SMS for Alitagtag College of High School Department 
+BSIT 0159 | Web-based examination for the incoming grade 7 students of Bauan Technical High School 
+BSIT 0161 | Web-based system for the guidance office of Batangas State University 
+BSIT 0162 | Enrollment queuing system of Batangas State University 
+BSIT 0167 | Web portal of Tabangao National High School 
+BSIT 0170 | Informatics and Computing Sciences learning management system 
+BSIT 0173 | Batangas State University Faculty Monitoring system 
+BSIT 0174 | Our Lady Mercy academy online enrollment system with SMS inquiry and notification 
+BSIT 0175 | Computerized enrolment system of Batangas National High School 
+BSIT 0180 | Virtual tour kiosk of Batangas State University Main Campus II 
+BSIT 0193 | Library management system of Provincial Capitol of Batangas 
+BSIT 0203 | Batangas State University student services application 
+BSIT 0205 | Mobile-based locator for Batangas State University Main Campus II 
+BSIT 0211 | Parents-student services system with SMS notification for Carmel School of Batangas 
+BSIT 0212 | University internet access security system for Alangilan 
+BSIT 0216 | Webtutee: An E-learning android application for HTML, HTML 5, CSS and Java Script 
+BSIT 0221 | Auto scheduler of Batangas State University 
+BSIT 0231 | OpenBiblio library management system for the Colegio ng Lungsod ng Batangas 
+BSIT 0245 | A test interface with item analysis for a web-based course management system 
+BSIT 0246 | Banaba West National High School library management information system with QR code reader 
+BSIT 0252 | Dr. Juan A. Pastor Memorial National High School website and online services
+BSIT 0261 | E-learning database management system 
+BSIT 0265 | Puerto Galera National High school online services 
+BSIT 0277 | Anselmo A. Sandoval Memorial National High School Web Portal 
+BSIT 0286 | Integrated library management system of Colegio ng Lungsod ng Batangas 
+BSIT 0289 | Transaction portal for College of Informatics and Computing Sciences 
+BSIT 0292 | Flip word: An android-based educational game 
+BSIT 0297 | Online student information system for integrated school of Batangas State University 
+BSIT 0336 | Online career assessment examination for K-12 Program DepEd 
+BSIT 0337 | Online facility research paper submission and review Batangas State University 
+BSIT 0342 | EBD scholars online performance evaluation and graduate teachers system 
+BSIT 0347 | Sipa:Student, instructor and parent services mobile application for Batangas State University 
+BSIT 0354 | Information management system for Batangas National High School record section
+BSIT 0362 | Batangas State University virtual tour 
+BSIT 0373 | Batangas State University RGO online services 
+BSIT 0374 | E-portfolio management system for College of Informatics and Computing Sciences 
+BSIT 0379 | Property and supply management system of Batangas State University 
+BSIT 0381 | Centralized sports and cultural event management system for Oblates of Saint Joseph School 
+BSIT 0389 | Calabarzon Integrated Research and Training Center laboratory inventory management system 
+BSIT 0400 | St. Joseph College web-based guidance services system 
+BSIT 0401 | Online election student council system for Batangas State University 
+BSIT 0406 | Virtual classroom for BatstateU for Technopreneurship class 
+BSIT 0410 | Disbursement voucher to subsidiary ledger accounting system for Batangas State University
+BSIT 0411 | Payroll management system for Batangas State University 
+BSIT 0419 | Management information system of Air Force Officer School 
+BSIT 0422 | Web-based scholarship management system with SMS notification for the office of the representative 2nd District of Batangas 
+BSIT 0426 | DepEd-Batangas City portal for online submission of school reports 
+BSIT 0431 | Competency assessment reporting system for training needs analysis of faculty and employee of Batangas State University 
+BSIT 0436 | Students Online Services of St. Jude Elementary School of learning incorporation 
+BSIT 0450 | Complaints management and faculty evaluation system for Saint James Academy 
+BSIT 0460 | Online student information system for the testing and admission/guidance and counseling office in Colegio ng Lungsod ng Batangas (CLB) 
+BSIT 0466 | Web-based training management information system for ATI-ITCPH 
+BSIT 0472 | Colegio ng Lungsod ng Batangas online alumni tracking system
+BSIT 0502 | Alphabet Puzzle: An android educational game 
+BSIT 0503 | Batangas State University point of sales for Resource Generation Office 
+BSIT 0508 | Vehicle and facility request system for general services office of Batangas State University 
+BSIT 0515 | Online customer satisfaction survey system for Batangas State University 
+BSIT 0516 | Fernando Air Base Integrated National High School information kiosk 
+BSIT 0521 | Centralized report submission system for institutional planning and development office of Batangas State University 
+BSIT 0526 | Online grade submission and retrieval with SMS request and notification for Saint James Academy 
+BSIT 0529 | Android-based digital bulletin board for the College of Informatics and Computing Sciences 
+BSIT 0530 | Integrated library management system using radio frequency identification (RFID) technology For Dacanlao G. Agoncillo National High School 
+BSIT 0534 | Graduate tracer system of Batangas City government scholarship program 
+BSIT 0537 | Student services management information system 
+BSIT 0538 | Student organizations and activities (SOA) web portal for Batangas State University 
+BSIT 0542 | Computerized entrance examination with item analysis for Sto. Niño Formation and Science School 
+BSIT 0546 | Tabangao Integrated school web portal 
+BSIT 0553 | RFID based access control monitoring system with SMS notification for Fernando Air Base Integrated National High School. 
+BSIT 0573 | Centralized document repository system for College of Informatics and Computing Sciences 
+BSIT 0578 | A student behavioural assessment system of Bauan Technical High School 
+BSIT 0592 | Web-based library management system with mobile application for Batangas Provincial Library
+BSIT 0599 | Ivisit: electronic visitors logbook for Batangas State University 
+BSIT 0603 | Electronic enrollment processing with grading system and performance analytics for Centex with parents notification via SMS 
+BSIT 0610 | Learning management system with analytics 
+BSIT 0616 | Career strand selection for San Pascual National High School with data analytics 
+BSIT 0648 | Web application for internship program of College of Informatics and Computer Science 
+BSIT 0660 | IoT-based smart waste monitoring and control system for Batangas State University Alangilan Campus
+BSIT 0672 | Web-based office & faculty evaluation for college of informatics and computing sciences 
+BSIT 0674 | E-BOTO: an online voting system for the supreme student council at Batangas State University – the National Engineering University 
+BSIT 0678 | Thesis archiving system for computer studies department in Lemery colleges 
+BSIT 0682 | Batangas State University Alangilan extension services management system 
+BSIT 0683 | Examination management system with item analysis 
+BSIT 0684 | Mentor ways: an android tutor finder application for junior and senior high school students
+BSIT 0694 | Web-based scholarship management system for the office of representative, 4th district of Batangas 
+BSIT 0696 | Mental health support system for Batangas State University 
+BSIT 0697 | Bauan technical high school student online system 
+BSIT 0698 | Web-based grant management system for Batangas province scholarship division 
+BSIT 0700 | Batangas State University Alangilan campus, mobile application for faculty information and evaluation 
+BSIT 0724 | Network design and file server for Batangas National Highschool administration building
+BSIT 0743 | Electronic library management system for Rosario technical high school 
+BSIT 0745 | S-Cash:E-wallet for Southhill Montessori School , Inc,. 
+BSIT 0754 | iSIKAP: an intelligent scholarship identification for knowldege and programs of Batangas province 
+BSIT 0755 | Online appointment system for Batangas State University Alangilan campus 
+BSIT 0759 | Cloud-based chatbot for testing and admission office of Batangas State University 
+BSIT 0760 | Batangas State University Main I GPS navigation map mobile application 
+BSIT 0770 | Quiz spartan: a web -based assessment tool with similarity recognition using k-nearest neighbors 
+BSIT 0799 | Lipa City science integrated national high school student portal mobile application 
+BSIT 0800 | Batangas State University library report generation 
+BSIT 0803 | ECNAD: Enterprise campus network architecture design for Batangas State University Alangilan 
+BSIT 0811 | EVENTO: a web-based event evaluation system for supreme student council at Batangas State University ‘The National Engineering University’ 
+BSIT 0814 | Smart id access card for students of Taysan Senior High School 
+BSIT 0840 | Smart fire detection system with SMS alert notification for Wenceslao Trinidad memorial national high school 
+BSIT 0843 | Junior high school web-based career guidance system 
+BSIT 0847 | Alangilan senior high school smart id
+BSIT 0858 | Network architecture design and an on-premise universal file access and sync platform at Sta. Rita elementary school 
+BSIT 0869 | Smart parking system in Batangas State University Pablo Borbon Campus 
+BSIT 0874 | CAPMS: capstone project management system for the College of Informatics and Computing Sciences at Batangas State University - The National Engineering University Alangilan Campus 
+BSIT 0877 | Local area network design with file server in Teodoro M. Luansing College of Rosario 
+BSIT 0881 | Pinamukan Integrated School online news portal system 
+BSIT 0892 | Web-based alumni portal and tracking system for Batangas State University – Alangilan 
+BSIT 0898 | Web-based uniform and merchandise reservation, inventory, and sales system, Batangas State University Alangilan resource generation office 
+BSIT 0908 | Web-based school portal with data visualization for Dr. Juan A. Pastor integrated national high school 
+BSIT 0910 | Student portal for lipa city science integrated national high school with integration for improved service management 
+BSIT 0917 | A data-driven scholarship allocation system for MSWDO of San Jose Batangas 
+BSIT 0918 | ECOCONNECT: a web application volunteer management system for youth for environment in schools 
+BSIT 0920 | Online student portal for ASIAN institute of computer studies 
+BSIT 0921 | Lipa City Science Integrated National High School: Student portal using QR code 
+BSIT 0922 | Document management system with document request and tracking for Sto. Niño Formation and Science School 
+BSIT 0935 | Techedu Connect: A web-based learning management system for the Senior High School Department of Bauan Technical Integrated High School 
+BSIT 0936 | Designing and implementing a learning management system for San Pascual Senior High School I with enhanced remote learning and customer support using real time messaging 
+BSIT 0938 | Design and optimization of network infrastructure in Rizal College of Taal 
+BSIT 0939 | Smarttrack: An IOT-based rfid attendance monitoring system for Alitagtag Senior High School 
+BSIT 0946 | Enhancing network performance and security at Tinga SoroSoro Integrated School: A Mikrotik router-based solution 
+BSIT 0959 | Conde Labac Integrated School student portal and registration system: A comprehensive solution using PHP and SQL server 
+BSIT 0962 | Web-based automated scholarship application system for Manila Teachers of Batangas City 
+BSIT 0966 | Senior High Portal Of Dr. Juan A. Pastor Integrated National High school with content management system integration for easy service management 
+BSIT 0970 | A web-based enrollment management system with an automated schedule system for Anselmo A. Sandoval Memorial National High School 
+BSIT 0971 | Development of student web portal for enhanced student services at Batangas City Integrated National Senior High School 
+BSIT 0973 | Design and development of student services system of Alitagtag National High School 
+BSIT 0978 | An Alumni tracking system for Paharang Integrated School 
+BSIT 0982 | A web-based sustainable development goals monitoring system phase 1 for the sustainable development office of Batangas State University 
+BSIT 0987 | Implementation of Batangas State University – TNEU mental health assessment portal 
+BSIT 0989 | Empowering students with special needs through personalized e-learning platform 
+BSIT 0990 | Puerto Galera National High School Student services system: Document tracking and appointment scheduling with emailing services 
+BSIT 1009 | Student management system for paharang integrated school 
+BSIT 1019 | Learning management system with special education Identification tool for Sunhill Montessori Casa -Batangas 
+BSIT 1020 | Web-based student management and analytics system with large language model-generated insights for teamaces Driving academy 
+BSIT 1028 | Analytic insights with equalearn: a web system for Batangas state university’s gender and development Office 
+BSIT 1030 | Service academy: a learning analytics for Batangas State University Alangilan campus extension services 
+BSIT 1032 | Studentsphere: a data-driven approach student portal with real-time notifications for san juan institute of technology 
+BSIT 1044 | A comprehensive network design to enhance campus connectivity for Pedro A. Paterno National High School 
+BSIT 1048 | Crowd control analysis: implementing image processing and machine learning models for congestion identification at Batangas State University 
+BSIT 1050 | Alumni tracking: a tracing tool for graduates of Teodoro M. Luansing College of Rosario Batangas 
+BSIT 1053 | Student Academic Support and Communication Platform For Cabuyao Integrated National High School (CINHS) 
+BSIT 1054 | Integrated Learning Management and Evaluation System for Senior High Students of Anselmo A. Sandoval Memorial National High School 
+BSIT 1056 | Astconnect: Alangilan Senior High School online library and learning resources with mobile application 
+BSIT 1063 | Asian institute of computer studies digital hub: integrating business analytics through academic progress recommender system for enhanced educational operations 
+BSIT 1074 | Utilizing business analytics for enhanced student engagement: development of a web portal for Pinamucan Integrated School 
+BSIT 1076 | Health management system with case monitoring and appointment scheduling in Batangas State University Health Service Office 
+BSIT 1077 | BatStateU - The National Engineering University Web-Based Scholarship System 
+BSIT 1078 | Empowering Quality Education: An Online Learning Platform of Sta. Clara Elementary School with Integrated Educational Analytics 
+BSIT 1079 | Forging connections: a strategic design for network enhancement of lemery senior high school 
+BSIT 1086 | Ibaan Central School web portal: leveraging data analytics and database integration for enhanced performance 
+BSIT 1090 | Educpanalo: a web-based student portal for king’s kids christian academy 
+BSIT 1097 | A web-based real-time grading and monitoring system with analytics for St. Paul School of San Jose, Batangas 
+BSIT 1110 | Integrated student portal with online consultation for universal scholastic academe 
+BSIT 1112 | Mr. Bin - A smart bin for Bolbok Elementary School 
+BSIT 1124 | A web-based student management portal with comprehensive academic descriptive analytics for Golden Gate Colleges 
+BSIT 1125 | Web-based information management and online scholarship application system for katipunan ng kabataan in Batangas City 
+BSIT 1126 | E-journo-eskwela: a web-based lms platform for campus journalism online training hub 
+BSIT 1134 | Sims: AI-powered smart inventory and monitoring system with mobile and web applications for university-wide ICT equipment management 
+BSIT 1144 | Design and development of an IoT firewall using Raspberry Pi For Lemery Senior High School 
+BSIT 1146 | Real-time POE network based vehicle access control system using image processing and optical character recognition (OCR) for automated plate number detection in Batangas State University - Alangilan Campus 
+BSIT 1149 | Data-driven Learning Management System with Integrated Decision Support for Project Arkanghel 
+BSIT 1162 | 1st Safety Driving School Portal: A Web-Based System for Streamlined Student Management and Data-Driven Analytics 
+BSIT 1194 | Enhancing User Experience with Cyrel Learning Centers Student Portal and Mobile Applications 
+BSIT 1197 | An Intelligent Decision Support System for Gender and Development Management and Optimization for Development and Efficiency: Strengthening Planning, Evaluation, and Reporting at Batangas State University-The National Engineering University 
+BSIT 1207 | Iot-enabled healthcare kiosk for preliminary check-up using integrated RFID health card for Batangas State University-Alangilan Students 
+
+SDG 5 — Gender Equality 
+
+BSIT 0968 | Online gender and development management system with chatbot integration for municipal social welfare and development in Corcuera, Romblon 
+BSIT 1012 | Pride portal: a web-based management system for wagayway equality 
+BSIT 1028 | Analytic insights with equalearn: a web system for Batangas state university’s gender and development Office 
+BSIT 1147 | GADIMS: gender and development information and management system with analytics of the local government unit of Lipa 
+BSIT 1197 | An Intelligent Decision Support System for Gender and Development Management and Optimization for Development and Efficiency: Strengthening Planning, Evaluation, and Reporting at Batangas State University-The National Engineering University 
+
+SDG 6 — Clean Water and Sanitation 
+
+BSIT 0250 | Water level monitoring system 
+BSIT 0378 | Water billing system with SMS notification for Boomtown subdivisions 
+BSIT 0417 | As-Is Balayong Waterworks and Sanitation Association , Inc. mobile-based meter reading and billing system 
+BSIT 0424 | Municipality of San Jose waterworks management system 
+BSIT 0461 | Subic Ibaba/Ilaya waterworks billing and payment system
+BSIT 0480 | Water usage analysis and inventory management system for Lobo water district
+BSIT 0510 | Design of water quality measuring device using Arduino with accuracy testing 
+BSIT 0572 | Design and development of water quality monitoring device with SMS notification
+BSIT 0595 | San Pascual waterworks accounting management and billing system with SMS notification 
+BSIT 0671 | A web-based distribution and monitoring water billing system for gulod itaas waterworks 
+BSIT 0720 | IOT based smart watering system and soul moisture monitoring for household plants 
+BSIT 0738 | Web-based Tall lake water quality log and monitoring system 
+BSIT 0905 | IBARWASA: water billing and inventory management with descriptive analytics 
+BSIT 1005 | Design and implementation of water billing system with SMS notification and geographic information system for Ambulong Rural Waterworks and Sanitation Association 
+BSIT 1008 | Web Based Water Billing System for Sahingan Water Works Association 
+BSIT 1128 | Smart water meter consumption with mobile-based application of Brgy. Dalipit West, Cuenca 
+BSIT 1182 | Enhancing Water Refill Service Qualipure Ibaan Through Digital Ordering System 
+
+SDG 7 — Affordable and Clean Energy 
+
+BSIT 1016 | Mobile-Based Smart Room Energy Monitoring and Control 
+BSIT 1107 | Solar-powered IoT automatic watering system with soil monitoring for fruit-bearing plants in Betchay’s garden
+BSIT 1206 | Solar powered IoT-based smart ventilation and fire safety system for Alaw Tiluk 
+
+SDG 8 — Decent Work and Economic Growth 
+
+BSIT 0001 | Personnel information, payroll and billing system for Batelec II, Lipa City 
+BSIT 0003 | Corazon T. Mendoza knitting incorporated payroll system with barcode reader 
+BSIT 0036 | Online BSU human resource BSIT 0054 | Online reservation system for Nilda Chua’s catering services (NCCS) 
+BSIT 0061 | Your Job.Com: a job portal with evaluation for applicant’s skills 
+BSIT 0097 | Online services for BatStateU human resource management office 
+BSIT 0106 | E-business site of Nutrilink enterprises with inventory system 
+BSIT 0117 | E-Business Site of perfect ten catering services 
+BSIT 0148 | Electronic-menu ordering system for Sawali restaurant 
+BSIT 0158 | Sales Force one marketing Inc. web-based inventory and sales monitoring system 
+BSIT 0160 | Business-To-business e-commerce site for Rotodyne Philippines Incorporated 
+BSIT 0163 | An E-commerce website for Sadelta construction and scaffolding sales and rentals 
+BSIT 0164 | Online ordering and information system for vets in the city 
+BSIT 0165 | Hot & cold café online ordering system 
+BSIT 0168 | Online ordering and inventory system for Julius aluminum, glass supply and welding shop 
+BSIT 0190 | E-commerce of Jorjhanes food haus 
+BSIT 0213 | Ginazel's hotel, restaurant and catering services online system with SMS notification 
+BSIT 0226 | Online manpower system for D'Maps manpower agency 
+BSIT 0239 | Payroll system for Sandigan Feedmills 
+BSIT 0241 | E-commerce website for Asian technology 
+BSIT 0243 | Johanna's Grille online ordering system 
+BSIT 0263 | Ilijan multi-purpose cooperative management information system 
+BSIT 0266 | Philippines Christian Book Store Batangas branch online ordering system 
+BSIT 0271 | Android-based food ordering system in F. Baylosis restaurant 
+BSIT 0280 | Inventory system for Monterey meatshop plus in Kumintang Ilaya, Batangas 
+City BSIT 0290 | United Doctor of St. Camillus de Lellis human resource information system 
+BSIT 0298 | Limcoma e-commerce 
+BSIT 0343 | BatStateU library holding inventory system 
+BSIT 0348 | He Brews Café customer ordering application with inventory system 
+BSIT 0355 | Toyota logistics procurement management system 
+BSIT 0358 | Human Resource Information System for the Municipal Government of Mabini, Batangas
+BSIT 0366 | Montenegro Shipping Lines Inc. (MSLI) inventory system 
+BSIT 0370 | Bauan General Hospital information and supply management 
+BSIT 0372 | Payroll system with leave credit for NFA Batangas 
+BSIT 0375 | Online ordering with customer relationship management system for Acqua Brilla and Malarayat Spring 
+BSIT 0376 | Online ordering system for Burger Street Restaurant 
+BSIT 0379 | Property and supply management system of Batangas State University 
+BSIT 0393 | Wanam sa Bukid Restaurant business management system 
+BSIT 0404 | Biometrics attendance monitoring with payroll system for Shollen Construction Company 
+BSIT 0409 | Patio Alfonso Resort and Restaurant online reservation system 
+BSIT 0411 | Payroll management system for Batangas State University 
+BSIT 0412 | Cooperative management and monitoring system 
+BSIT 0420 | Human resource management system for Mastermix agri-products and Feedmills Corporation 
+BSIT 0421 | Online manufacturing inventory system for Wincom Feedmill Corporation 
+BSIT 0423 | Procurement in management system for TESDA Batangas Provincial Office 
+BSIT 0453 | Honda Cars Batangas human resource information system management 
+BSIT 0455 | Inventory and POS system for CDL Hardware and Construction Supply Corporation 
+BSIT 0458 | Service management system for JM & ML Enterprises 
+BSIT 0484 | Human resource information system for Crisdeline Garments 
+BSIT 0491 | Business service management with data analytics for Greenland Platinum One Feed mills 
+BSIT 0495 | Human resource information system and visitor access for Simlong Development and Logistic Corporation 
+BSIT 0500 | Computerized construction cost estimate with payroll management system for Edres Construction And Supply 
+BSIT 0503 | Batangas State University point of sales for Resource Generation Office 
+BSIT 0551 | Human resource information system for the Municipality of San Jose 
+BSIT 0569 | A web-based lot sales monitoring system using GIS for Victorina Corporation 
+BSIT 0579 | Delivery tracking and inventory system with QR Code
+BSIT 0607 | Food products and general trading system 
+BSIT 0615 | Web-based customer service management system for smart rye automatics
+BSIT 0618 | Online reservation system and records management for fab events catering services and event management 
+BSIT 0619 | Web-based service management system for Ricmar Air-Conditioning and General Services 
+BSIT 0639 | Human resource information system for the municipality of Rosario, Batangas 
+BSIT 0656 | Trashcash: An e-commerce application for recycled waste materials 
+BSIT 0663 | PESO Lemery management system BSIT 0687 | Human resources information systems for the municipality of San Luis office 
+BSIT 0706 | Batangas City smart vehicle hiring system 
+BSIT 0709 | Aice ice cream online ordering system -Nasugbu Branch 
+BSIT 0756 | JHAPP: job hiring mobile application for San Nicolas Municipality 
+BSIT 0786 | Online ordering system for JC Parallon grocery store 
+BSIT 0851 | Peso portal: online job portal web-based under the public employment services office use for searching employment for aspirant applicants in Bauan, Batangas 
+BSIT 0852 | A human resource information system with payroll feature for thermal solutions inc. 
+BSIT 0859 | Currensight: peso banknote detector for the visually impaired 
+BSIT 0865 | Wager - design and development of an integrated attendance monitoring and payroll system for palay butil buhay farmers association 
+BSIT 0897 | Web-based rental and management system for w construction: enhancing customer support and service management 
+BSIT 0903 | PESO-LIPA.ONLINE, an automated job portal for public employment service office in Lipa City 
+BSIT 0907 | Streamlining customer service and inventory management with QR-based point of sales application for pusakalye clothing store 
+BSIT 0910 | Student portal for lipa city science integrated national high school with integration for improved service management 
+BSIT 0924 | The Place Gian & Gaela's Catering Services: Building a management system with appointment and reservation features 
+BSIT 0966 | Senior High Portal Of Dr. Juan A. Pastor Integrated National High school with content management system integration for easy service management 
+BSIT 0972 | Online catering service management system for BATSTATEU – Alangilan Resource Generation Office (RGO) 
+BSIT 0993 | Design and development of hr: connect a human resource management system for the Municipality of San Nicolas Batangas using PHP and MYSQL 
+BSIT 0995 | Sales and inventory system with order tracking analytics for Nueva Vida Farm 
+BSIT 0999 | Jobjuan: Portal of public employment service office sectors in San Juan Batangas 
+BSIT 1010 | Dani’s catering and events: a web-based events planner system 
+BSIT 1014 | Trabahadoor: a web-based job portal with hr analytics for the public employment service office of the municipality of San Jose, Batangas 
+BSIT 1017 | A web-based business management system for san jose pest control services 
+BSIT 1024 | Optimizing Operational Efficiency: A Web Based Management System for Buttered Toast & Coffee Powered By Integrated Point of Sale System 
+BSIT 1034 | Development of a loan management system for bimpc: enhancing cooperative finances 
+BSIT 1036 | Enhancing operational efficiency and customer experience: A web-based management system for fairy flora express laundry
+BSIT 1040 | Batangas City employment and information system: a comprehensive online job portal and recommendations through data-driven job analysis 
+BSIT 1059 | Streamlining Pharmaceutical Services: YenYan's Online Ordering and Management Solution 
+BSIT 1061 | Forecasting payroll demands: optimizing resource allocation in a web-based system for Juan Carlo the caterer 
+BSIT 1062 | Data-driven analysis through a web-based integration of point of sales and inventory management system for Hungry Hippo 
+BSIT 1065 | J.l. Calingasan service center: work order management system with data analytics 
+BSIT 1068 | Enhanced Sales Strategy Decision Support Using Data-Driven Sales Monitoring System for Coffee Beer Cafe 
+BSIT 1072 | Petals & Stems: Alitagtag's premier online ordering system for exquisite floral arrangements and sustainable blooms 
+BSIT 1073 | Cloud based point of sales inventory system with data driven analytics for Reynan’s Motor Shop Parts and Accessories 
+BSIT 1098 | ONECIFRA: A Web and Mobile based Human Resource Information System for CIFRA Industrial Services Corporation 
+BSIT 1101 | Streamlining Payroll Processing for Police Officers: Integrating Attendance Tracking with HR Systems in Police Hotline Movement Incorporated at San Jose Batangas 
+BSIT 1109 | Web-Based and Mobile Application Human Resource Management System Portal for Anywear Fashion and Trading Corporation 
+BSIT 1115 | Optimizing pet care, revolutionizing service management with a mobile app for petaholic veterinary clinic featuring inventory mangement and appointment scheduling 
+BSIT 1117 | From click to sip: An advanced web-based sales inventory system to improve management of max mango business branches in Batangas City 
+BSIT 1120 | IDM: An Integrated dealership management system of eversure marketing Inc. in Batangas 
+BSIT 1123 | Platetech: Enchancing ordering and inventory system with descriptive analytics at Johanna's Grille 
+BSIT 1129 | Web based management system and point of sales with applied business analytics for Lolo's Place 
+BSIT 1131 | Business analytics-integrated financial management system for Ibaan Market Vendors & Community Multi- Purpose Cooperative (IMVCMPC)
+BSIT 1139 | BatStateU Alangilan Procurement Office Monitoring System 
+BSIT 1154 | A Web-Based Business Management System with Prescriptive Analytics For Boss G Café 
+BSIT 1159 | NEXUSAI: Web Based AI-assisted Business Analytics for Multi-branch Operations with E-commerce Integration for Yohann's Sport's Wear 
+BSIT 1160 | Booking and Management System of Kyle's Catering Services 
+BSIT 1175 | A Web-Based Credit Management System for STS Louie and Zelie Credit Cooperative 
+BSIT 1184 | Hacienda Marcelo Resort V2: A Customized Service Management System for Seamless Reservation and Event Planning 
+BSIT 1187 | Pharmacy Inventory and Sales Tracking Through Point of Sale Integration for Donrose Pharmacy 
+
+SDG 9 — Industry, Innovation and Infrastructure BSIT 0007 | Wifi Yagi antenna with weatherproof access point attachment 
+
+BSIT 0009 | Design of an Omni-directional antenna for BSU Wifi system 
+BSIT 0012 | Proposed wide area network design for Batangas state university using WIMAX technology 
+BSIT 0039 | Microcontroller based rice cooker with GSM 
+BSIT 0041 | Book monitoring system using radio frequency identification (RFID) 
+BSIT 0155 | Attendance system using RFID with SMS for Alitagtag College of High School Department 
+BSIT 0191 | Modified high gain Wi-Fi antenna with booster 
+BSIT 0253 | Performance comparison of wireless sensor network using IEEE 802.15.4 (Zigbee) and IEEE 802.11 (Wi-Fi) for parking monitoring system 
+BSIT 0264 | Automatic eraser of magnetic board with RFID 
+BSIT 0355 | Toyota logistics procurement management system 
+BSIT 0428 | Starlite Ferries, Inc. web based logistics and requisition management information system 
+BSIT 0449 | Bus tracking and monitoring for Supreme Trans Liner Incorporation 
+BSIT 0509 | Arduino-based class attendance using RFID 
+BSIT 0510 | Design of water quality measuring device using Arduino with accuracy testing 
+BSIT 0530 | Integrated library management system using radio frequency identification (RFID) technology For Dacanlao G. Agoncillo National High School 
+BSIT 0535 | Raspberry Pi based faculty attendance using face recognition
+BSIT 0545 | Development of scale model parking system using Arduino and sensors 
+BSIT 0553 | RFID based access control monitoring system with SMS notification for Fernando Air Base Integrated National High School. 
+BSIT 0554 | Development of fire alarm system using raspberry Pi 
+BSIT 0559 | Design and development of magnetized door locking mechanism using Arduino 
+BSIT 0576 | Arduino-based portable pet feeder 
+BSIT 0581 | CCTV with gas detection using raspberry PI 
+BSIT 0587 | RFID bus fare payment system 
+BSIT 0602 | Arduino based pest repellant system 
+BSIT 0628 | Arduino based fingerprint door lock 
+BSIT 0629 | Air quality monitoring system on Arduino microcontroller 
+BSIT 0636 | Fingerprint motorcycle starter with GPS tracking function 
+BSIT 0654 | Asthma monitoring mobile application with portable nebulizer using raspberry PI 
+BSIT 0660 | IoT-based smart waste monitoring and control system for Batangas State University Alangilan Campus 
+BSIT 0668 | A raspberry PI based mango disease detection using convolutional neural network 
+BSIT 0724 | Network design and file server for Batangas National Highschool administration building 
+BSIT 0788 | Smart parking system using image processing 
+BSIT 0803 | ECNAD: Enterprise campus network architecture design for Batangas State University Alangilan 
+BSIT 0812 | Optimized network architecture design the local area network of sunhill development center 
+BSIT 0814 | Smart id access card for students of Taysan Senior High School 
+BSIT 0839 | Data automation system for anti-rabies program of OCVAS Batangas 
+BSIT 0842 | IoT-based temperature and soil moisture monitoring android application 
+BSIT 0847 | Alangilan senior high school smart id
+BSIT 0858 | Network architecture design and an on-premise universal file access and sync platform at Sta. Rita elementary school 
+BSIT 0869 | Smart parking system in Batangas State University Pablo Borbon Campus 
+BSIT 0877 | Local area network design with file server in Teodoro M. Luansing College of Rosario
+BSIT 0893 | Automated alcohol dispenser with infrared thermometer using arduino microcontroller 
+BSIT 0900 | Patintero: a virtual reality multiplayer game with optimized network performance using unity's multiplayer networking netcode 
+BSIT 0938 | Design and optimization of network infrastructure in Rizal College of Taal 
+BSIT 0939 | Smarttrack: An IOT-based rfid attendance monitoring system for Alitagtag Senior High School 
+BSIT 0943 | Real-time GPS tracking and monitoring system using IOT device and cloud computing for Batangas Transport Cooperative (BATRASCO) 
+BSIT 0945 | Proposed network designs for DICT Region IV-A Regional Operations Office 
+BSIT 0946 | Enhancing network performance and security at Tinga SoroSoro Integrated School: A Mikrotik router-based solution 
+BSIT 0948 | Network upgrade with wi-fi security for Asian Institute Of Computer Studies 
+BSIT 0949 | IoT-Based Fecarro’s smart poultry farming 
+BSIT 0951 | Face Snap: An IOT-based smart technology for facial recognition and detection in student apartments 
+BSIT 0953 | IOT-Based wireless sensor network for early fire detection and prevention 
+BSIT 0954 | Lan Map: Design and implementation of a network monitoring activity for Batangas Medical Center 
+BSIT 0955 | Network optimization and performance enhancement for San Juan Institute of Technology 
+BSIT 0956 | Design and development of an IOT-based for network security using raspberry Pi 
+BSIT 0957 | Web content filtering system for parental control on a home network with advanced firewall and DNS filtering technologies using raspberry Pi 
+BSIT 1015 | Parcelsafe: aniot-based parcel management system 
+BSIT 1016 | Mobile-Based Smart Room Energy Monitoring and Control 
+BSIT 1025 | Smart jeepney tracking and management system with predictive analytics of batangas transportation cooperative (batrasco) 
+BSIT 1044 | A comprehensive network design to enhance campus connectivity for Pedro A. Paterno National High School 
+BSIT 1047 | IoT-based monitoring and automated watering system for Lolo Omas’ greenhouse lettuce farm 
+BSIT 1049 | Design and development of an IoT-based device for environment monitoring in Balagtas using LTE technology 
+BSIT 1057 | SMART Crosswalk in Barangay Mahabang Dahilig Batangas City 
+BSIT 1058 | Smart parking system monitoring: enhancing efficiency using image processing 
+BSIT 1079 | Forging connections: a strategic design for network enhancement of lemery senior high school 
+BSIT 1112 | Mr. Bin - A smart bin for Bolbok Elementary School
+BSIT 1142 | IoT-based fish aquarium monitoring and feeding system for RRJ Aquatique 
+BSIT 1143 | IoT-based rotten egg sorting device for Nancy’s fresh eggs atbp. 
+BSIT 1144 | Design and development of an IoT firewall using Raspberry Pi For Lemery Senior High School 
+BSIT 1152 | BusSync: An LoT and Cloud Computing Enabled Real-Time Tracking and Monitoring System with Companion Mobile Application for Bus Fleet Management 
+BSIT 1156 | IOT-based Automated Moisture Control and Environmental Monitoring System for Vermicomposting at Kabalikat sa Kabuhayan Farm 
+BSIT 1157 | IoT-Based Pet Health Monitoring Collar With GPS and Companion Mobile Application 
+BSIT 1173 | PiFiBantay: Enhanced Network Security with Raspberry Pi-Based for Intrusion Detection and Prevention with Web-Based Monitoring Dashboard for NBM Accounting & Auditing Services 
+BSIT 1178 | IoT-Based soil Macronutrient Analyzer for Happy Thumb Integrated Farm 
+BSIT 1180 | IoT-Based Chicken Manure Robot Scaper for Guinhawa's Poultry 
+BSIT 1183 | An Iot-Based Dry Waste Segregation System for Xentro Mall Batangas City 
+BSIT 1185 | Assessment and Optimization of IT Systems and Network Architecture in the Local Government Unit of Lipa, Batangas 
+BSIT 1188 | Raspberry Pi-Based Speech Enhancement System for Lalibelatech Solutions 
+BSIT 1189 | IoT-Based Smart Beekeeping: Monitoring beehive Sustem for Saranhae Honey Bee Farm 
+BSIT 1191 | Top Driving Institute: Moshi- An IoT-Based Helmet Tracker and Emergency Response System 
+BSIT 1193 | Iot-Based Hand Gesture Controlled Wheelchair for Individuals with Mobility Impairment 
+BSIT 1195 | HATCHTECH: An Iot-Based Smart Egg Incubator 
+BSIT 1202 | MaLASACkit portal: a web-based portal for donor management and donation logistics of Lasac with the utilization of prescritive analytics 
+BSIT 1204 | Rancho Blanco virtual tour: an IoT-based visualization kiosk and website for guest exploration 
+BSIT 1206 | Solar powered IoT-based smart ventilation and fire safety system for Alaw Tiluk 
+BSIT 1207 | Iot-enabled healthcare kiosk for preliminary check-up using integrated RFID health card for Batangas State University-Alangilan Students 
+
+SDG 10 — Reduced Inequalities 
+
+BSIT 0274 | Computer aided learning module for deaf and mute 
+BSIT 0445 | Senior citizen and person with disabilities record management system for the municipal social welfare and development office of Padre Garcia 
+BSIT 0474 | Online verification system for senior citizen in Batangas City 
+BSIT 0475 | Batangas PDAO information management system for PWDs with data analysis 
+BSIT 0555 | Mapping and monitoring system for 4Ps office of the municipality of Bauanv 
+BSIT 0620 | Smart belt for the visually impaired 
+BSIT 0657 | Senior citizen ID verification system for Batangas City 
+BSIT 0661 | Management information system for the office of the senior citizen affairs of Bauan, Batangas 
+BSIT 0765 | 4Ps web-based management system municipality of Lemery , Batangas 
+BSIT 0845 | Management information system for the office of the senior citizen affairs of Bauan, Batangas 
+BSIT 0857 | A touchless hand gesture driven directory access kiosk system for BATSTATEU Alangilan 
+BSIT 0859 | Currensight: peso banknote detector for the visually impaired
+BSIT 0914 | ITRACK4PS: a web-based monitoring system of 4ps in Mabini, Batangas, IN field of education 
+BSIT 1019 | Learning management system with special education Identification tool for Sunhill Montessori Casa -Batangas 
+BSIT 1039 | Implementing a web-based senior citizen health and medication management system in San Jose, Batangas: leveraging a comprehensive it solution with an integrated electronic health record platform 
+BSIT 1045 | EYEWALK: enhanced IoT-enabled navigation device for visually impaired individuals 
+BSIT 1171 | Smart Assist: An IoT-Enabled Navigation Stick for the Visually Impaired Individuals with Obstacle Detection for the Persons with Disability Affairs in Batangas City 
+BSIT 1193 | Iot-Based Hand Gesture Controlled Wheelchair for Individuals with Mobility Impairment
+
+SDG 11 — Sustainable Cities and Communities
+
+BSIT 0126 | Development of online services for the municipality of Bauan
+BSIT 0128 | Batangas City traffic monitoring system
+BSIT 0130 | Real property identification and tax mapping system of Batangas City assessor's office
+BSIT 0141 | Barangay Balagtasin information system
+BSIT 0145 | Online registration system using quick response code
+BSIT 0180 | Virtual tour kiosk of Batangas State University Main Campus II
+BSIT 0196 | Virtual tour system of Puerto Galera
+BSIT 0197 | Barangay Simlong management system
+BSIT 0204 | Municipality of Alitagtag Batangas web portal
+BSIT 0210 | Online registration of establishments and queuing system of DOLE Batangas
+BSIT 0218 | Mercedes homes online virtual tour
+BSIT 0224 | Computerized tax declaration of real property in the Municipality of San Jose Batangas
+BSIT 0240 | Online public transportation guide for Lipa City
+BSIT 0349 | Web-based information system of Barangay Cuta, Batangas City
+BSIT 0355 | Toyota logistics procurement management system
+BSIT 0356 | Batangas Province Virtual Tour: Taal Volcano experience
+BSIT 0362 | Batangas State University virtual tour
+BSIT 0424 | Municipality of San Jose waterworks management system
+BSIT 0425 | Request of computer equipment and monitoring system for IT Services Division of Batangas City Hall
+BSIT 0428 | Starlite Ferries, Inc. web based logistics and requisition management information system
+BSIT 0467 | LAN based automated business permit and monitoring system for the municipal government of Alitagtag, Batangas
+BSIT 0468 | Web portal for the municipality of Balete Batangas
+BSIT 0476 | A natural disaster response analytics Nodel with mobile application of Batangas City
+BSIT 0479 | Online inspection reports and monitoring system for business permit and license application of Batangas City
+BSIT 0489 | Business permit system for the office of the municipal treasurer of Lobo, Batangas
+BSIT 0494 | Batangas City barangay management information system with geo spatial analysis
+BSIT 0495 | Human resource information system and visitor access for Simlong Development and Logistic Corporation
+BSIT 0506 | Website with virtual tour of Avida Settings
+BSIT 0513 | Web-based management information system for barangays in Batangas City
+BSIT 0543 | Management information system for Local Civil Registry of Lipa
+BSIT 0545 | Development of scale model parking system using Arduino and sensors
+BSIT 0548 | New civil registrar information system for Bauan Batangas
+BSIT 0551 | Human resource information system for the Municipality of San Jose
+BSIT 0554 | Development of fire alarm system using raspberry Pi
+BSIT 0555 | Mapping and monitoring system for 4Ps office of the municipality of Bauanv
+BSIT 0562 | Web-based agriculture mapping using QGIS for Batangas province
+BSIT 0563 | Municipality of Alitagtag health center information system
+BSIT 0569 | A web-based lot sales monitoring system using GIS for Victorina Corporation
+BSIT 0571 | Integrated e-legislative system of Sangguniang Panlungsod Records Division
+BSIT 0597 | Web-based management system for municipal disaster risk reduction and management office in Rosario Batangas
+BSIT 0598 | Web services of selected offices for the municipality of Rosario, Batangas
+BSIT 0600 | Business permit and licensing system for the municipality of Mabini, Batangas
+BSIT 0608 | Information management system with GIS grave mapping for Mt. Zion Memorial Park Batangas City
+BSIT 0639 | Human resource information system for the municipality of Rosario, Batangas
+BSIT 0679 | Internet redundancy topology for multi internet service providers (ISPs) of the municipal hall in Candelaria , Quezon
+BSIT 0680 | Barangay Bolo services management information system
+BSIT 0687 | Human resources information systems for the municipality of San Luis office
+BSIT 0688 | Idoctrack: A documentary tracking systems for the municipality of Ibaan
+BSIT 0690 | iTrace: digitized establishment entry management system for the municipality of San Nicolas , Batangas
+BSIT 0702 | Alert: a mobile application for disaster risk reduction and management for municipal of Lemery
+BSIT 0711 | Bus management system with location tracking
+BSIT 0727 | Municipality of San Luis business permit and residence certification online management
+BSIT 0756 | JHAPP: job hiring mobile application for San Nicolas Municipality
+BSIT 0757 | Voters information system for voting precinct in the local barangay Cuta, Sitio Maligaya Batangas City
+BSIT 0760 | Batangas State University Main I GPS navigation map mobile application
+BSIT 0765 | 4Ps web-based management system municipality of Lemery , Batangas
+BSIT 0769 | Likas: location identifier for ka-Batangueño assistance and support an evacuation center finder
+BSIT 0779 | Barangay Masaguitsit integrated information management system
+BSIT 0782 | Look-ation: A business establishment locator for the municipality of Tuy
+BSIT 0788 | Smart parking system using image processing
+BSIT 0789 | GPS navigation map for BatStateU Pablo Borbon
+BSIT 0804 | E-hatid: Android-based booking application for tricycle operators and drivers' association in Lourdes Subdivision, Barangay Bolbok, Batangas City
+BSIT 0822 | PGTOUR : a Puerto Galera tourist spot and resort 360-degree image scene viewer application
+BSIT 0825 | Automated real property tax management system and online payment with geo-mapping for the municipality of Alitagtag
+BSIT 0840 | Smart fire detection system with SMS alert notification for Wenceslao Trinidad memorial national high school
+BSIT 0848 | Ingat Batangas: City emergency response application with incident management system
+BSIT 0854 | Spear: student organization’s portal for event approval and registry
+BSIT 0868 | Local barangay exigency alerts: mobile location-aware emergency notification system
+BSIT 0869 | Smart parking system in Batangas State University Pablo Borbon Campus
+BSIT 0876 | E-sigaw: an emergency report application in the Municipality of Pinamalayan, Oriental Mindoro
+BSIT 0887 | Smart waste management system for the Barangay Mainit, Mabini Batangas
+BSIT 0896 | iLOCATED: identifying the location of citizens affected by extreme disaster
+BSIT 0904 | LIGTAS: locating individuals by geospatial tracking application system for the municipality of Alitagtag, Batangas
+BSIT 0923 | PASS-YAL: An E-ticketing system for the Municipality of San Juan, Batangas
+BSIT 0927 | Ecoexchange: A web-based marketplace for recyclable materials with GIS
+BSIT 0930 | Cloud-integrated virtual touring and reservation management system of Astra Realty Corporation
+BSIT 0953 | IOT-Based wireless sensor network for early fire detection and prevention
+BSIT 0958 | Digitizing record management in Barangay Poblacion San Pascual, an automated system built on Laravel and MYSQL
+BSIT 0959 | Conde Labac Integrated School student portal and registration system: A comprehensive solution using PHP and SQL server
+BSIT 0964 | Tourease: An interactive web application for tourism destination discovery and exploration of Batangas Province
+BSIT 0976 | Information and e-services web-based application for Barangay Libjo Batangas City
+BSIT 0981 | A web-based monitoring system for municipal disaster risk reduction management council for the Municipality of Ibaan, Batangas
+BSIT 0986 | Bangis: Batangas animal bite management gateway information system for efficient management of human rabies vaccines in the Province of Batangas
+BSIT 0988 | BATSAFEU: Development of a comprehensive mobile solution for incident reporting, emergency response, and threats alerts
+BSIT 0991 | eSPES: Online registration and data management system
+BSIT 0993 | Design and development of hr: connect a human resource management system for the Municipality of San Nicolas Batangas using PHP and MYSQL
+BSIT 0997 | Optimizing resource allocation and service delivery for health workers of Barangay Malitam Batangas City: A business analytics approach using Lifelink
+BSIT 1000 | Children’s health information system: monitoring and tracking of children's health in the Municipality of San Juan, Batangas
+BSIT 1003 | Design and development of a web-based donation system with data analytics for the municipality of Sta. Terisita Batangas
+BSIT 1014 | Trabahadoor: a web-based job portal with hr analytics for the public employment service office of the municipality of San Jose, Batangas
+BSIT 1023 | Web-based barangay record management of San Pedro, Batangas City
+BSIT 1025 | Smart jeepney tracking and management system with predictive analytics of batangas transportation cooperative (batrasco)
+BSIT 1027 | Pasada (permitting and other services aligned for drivers’association): a franchising system for tricycle and jeepney drivers in the municipality of lobo, batangas with descriptive analytics (diagnostic analytics)
+BSIT 1035 | Occupational and motor operator application permit system with demographics analysis for community eCenter (CeC) of San Luis, Batangas
+BSIT 1041 | GIS-based health analytics and inventory management system for municipality of San Luis health center
+BSIT 1042 | EASYTIZEN: an integrated web and mobile application for document requests and data analytics in San Pascual Municipality, Batangas
+BSIT 1057 | SMART Crosswalk in Barangay Mahabang Dahilig Batangas City
+BSIT 1058 | Smart parking system monitoring: enhancing efficiency using image processing
+BSIT 1096 | Data-driven personalized itinerary recommendations using prescriptive anlaytics for enhanced tourism experiences
+BSIT 1099 | Vehicrash: incident alert and management system for Batangas City
+BSIT 1103 | Infomunisipyo: a record management system for document request and appointment process of local civil registrar office in municipality of Alitagtag Batangas
+BSIT 1104 | Lipa city explorer: a web-based destination recommender system with feedback analysis tool for culture heritage tourism in lipa city, batangas
+BSIT 1118 | ExploreLobo, A tourist experience with 360-degree discovery and booking
+BSIT 1135 | A web-based environmental users’ fee management and monitoring system with data-driven planning for the Municipality of Puerto Galera
+BSIT 1147 | GADIMS: gender and development information and management system with analytics of the local government unit of Lipa
+BSIT 1150 | GCH-HOA Connect: A Centralized Community Management System for Golden Country Homes Alangilan, Batangas City
+BSIT 1155 | Integrated Web-Based Tourism Management: Optimizing Resort Operations in Lobo, Batangas
+BSIT 1185 | Assessment and Optimization of IT Systems and Network Architecture in the Local Government Unit of Lipa, Batangas
+BSIT 1191 | Top Driving Institute: Moshi- An IoT-Based Helmet Tracker and Emergency Response System
+BSIT 1199 | Off-Grid Communication for First Responders: Implementing a Lora-Based Mesh Network for the Bureau of Fire Protection in Barangay Sta. Clara
+BSIT 1202 | MaLASACkit portal: a web-based portal for donor management and donation logistics of Lasac with the utilization of prescritive analytics
+BSIT 1204 | Rancho Blanco virtual tour: an IoT-based visualization kiosk and website for guest exploration
+
+SDG 12 — Responsible Consumption and Production
+
+BSIT 0656 | Trashcash: An e-commerce application for recycled waste materials
+BSIT 0660 | IoT-based smart waste monitoring and control system for Batangas State University Alangilan Campus
+BSIT 0705 | Candelaria garbage collection and waste monitoring system
+BSIT 0762 | Smart waste management system
+BSIT 0887 | Smart waste management system for the Barangay Mainit, Mabini Batangas
+BSIT 0927 | Ecoexchange: A web-based marketplace for recyclable materials with GIS
+BSIT 1183 | An Iot-Based Dry Waste Segregation System for Xentro Mall Batangas City
+
+SDG 13 — Climate Action
+
+BSIT 0418 | Damage assessment system with data analytics for MDRRMO of Rosario, Batangas
+BSIT 0477 | Air pollution analytics and information system in Batangas City
+BSIT 0512 | Development of a prototype rain gauge and flood level apparatus using Wemos
+BSIT 0591 | Geo-hazard assessment for Mabini with decision support system
+BSIT 0597 | Web-based management system for municipal disaster risk reduction and management office in Rosario Batangas
+BSIT 0702 | Alert: a mobile application for disaster risk reduction and management for municipal of Lemery
+BSIT 0821 | IDONATE: a web-based donation system for CDRRMO in Batangas City
+BSIT 0981 | A web-based monitoring system for municipal disaster risk reduction management council for the Municipality of Ibaan, Batangas
+BSIT 1049 | Design and development of an IoT-based device for environment monitoring in Balagtas using LTE technology
+
+SDG 14 — Life Below Water
+
+BSIT 0293 | Aquatic Quest: An edutainment android game
+BSIT 0369 | Detection of Mangroves diseases using image processing techniques
+BSIT 0524 | Mangrove phytopathology analysis using digital image recognition for PG-Enro
+BSIT 0540 | Fish kill forecasting application for BFAR IV-A
+BSIT 0638 | Marine benthic organism using remotely operated underwater vehicle
+BSIT 0980 | Balmes boat builders marine supply and customer support system
+BSIT 1167 | HOTELLINK: A Centralized Management System For D'Mariners Inn Hotel
+BSIT 1201 | Anchor Point :Web-Based Operation System Management for L.E.O Marines
+
+SDG 15 — Life on Land
+
+BSIT 0200 | Soil monitoring system
+BSIT 0394 | Management information system for the office of the City Veterinary and Agricultural Services of Batangas
+BSIT 0457 | Information system for the office of Agricultural Services in Rosario, Batangas
+BSIT 0470 | OCVAS livestock veterinary online services information management system
+BSIT 0492 | Information graphics generation and data management system for the cooperative division of the office of the City Veterinarian and Agricultural Services Batangas City
+BSIT 0501 | Web-based management information system of dogs and cats anti-rabies vaccination OCVAS, Batangas City
+BSIT 0525 | Smart farming application with smart sensors for live soil moisture and temperature monitoring
+BSIT 0562 | Web-based agriculture mapping using QGIS for Batangas province
+BSIT 0630 | Inventory management system for OCVAS
+BSIT 0643 | A web-based system for detecting Liberica Coffee Diseases using Yolov4-Tiny
+BSIT 0646 | Android herbal plant identification mobile application for office of the City Veterinarian and Agricultural Services
+BSIT 0668 | A raspberry PI based mango disease detection using convolutional neural network
+BSIT 0731 | Veterinary management system
+BSIT 0746 | Animal shelter management system
+BSIT 0787 | Ricenet: a fine tuned neural network model for rice disease classification system
+BSIT 0798 | Electronic veterinary management system for Vetmyx animal clinic
+BSIT 0839 | Data automation system for anti-rabies program of OCVAS Batangas
+BSIT 0882 | Vet plaza: a mobile based application for veterinary appointment
+BSIT 0909 | Data-driven farm management: designing a web-based pig farm management system with advanced analytics
+BSIT 1001 | Weather analytics for sustainable crop production design and development of farmwise, an SMS-based crop management system for enhanced yield and efficiency
+BSIT 1004 | Data-driven animals management system : A web-based solution for the office of the city veterinary and agricultural service’s livestock dispersal program
+BSIT 1107 | Solar-powered IoT automatic watering system with soil monitoring for fruit-bearing plants in Betchay’s garden
+BSIT 1115 | Optimizing pet care, revolutionizing service management with a mobile app for petaholic veterinary clinic featuring inventory mangement and appointment scheduling
+BSIT 1166 | PAWS: Pet Analytics and Wellness System A Data-Driven Healthcare Insight Platform for Bath and Bark Grooming and Veterinary Services
+
+SDG 16 — Peace, Justice and Strong Institutions
+
+BSIT 0249 | Wireless Lan administration: a student monitoring and access control system of Fame Academy of Science and Technology
+BSIT 0429 | Document repository for Batangas police provincial office
+BSIT 0439 | Document tracking system for Community Environment and Natural Resources (CENRO) Lipa City
+BSIT 0448 | Document tracking system for the municipal government of Taal
+BSIT 0493 | Automated police clearance for Alitagtag municipal police station
+BSIT 0519 | Document tracking system using QR-code for Provincial Assessor's Office in Batangas Province
+BSIT 0553 | RFID based access control monitoring system with SMS notification for Fernando Air Base Integrated National High School.
+BSIT 0573 | Centralized document repository system for College of Informatics and Computing Sciences
+BSIT 0585 | Web based police clearance and records management system in Batangas City Police Station
+BSIT 0593 | Crime mapping management system
+BSIT 0717 | Fake news detection using sentiment analysis
+BSIT 0728 | Online document tracking system of Soro-Soro Ibaba development corporation with data analytics
+BSIT 0742 | Web-based legal consultation and appointment system
+BSIT 0956 | Design and development of an IOT-based for network security using raspberry Pi
+BSIT 0957 | Web content filtering system for parental control on a home network with advanced firewall and DNS filtering technologies using raspberry Pi
+BSIT 0974 | Bauan Dot: An online document tracking system for The Municpality of Bauan
+BSIT 0990 | Puerto Galera National High School Student services system: Document tracking and appointment scheduling with emailing services
+BSIT 1101 | Streamlining Payroll Processing for Police Officers: Integrating Attendance Tracking with HR Systems in Police Hotline Movement Incorporated at San Jose Batangas
+BSIT 1144 | Design and development of an IoT firewall using Raspberry Pi For Lemery Senior High School
+BSIT 1146 | Real-time POE network based vehicle access control system using image processing and optical character recognition (OCR) for automated plate number detection in Batangas State University - Alangilan Campus
+BSIT 1173 | PiFiBantay: Enhanced Network Security with Raspberry Pi-Based for Intrusion Detection and Prevention with Web-Based Monitoring Dashboard for NBM Accounting & Auditing Services
+
+
+SDG 17 — Partnerships for the Goals
+
+BSIT 0982 | A web-based sustainable development goals monitoring system phase 1 for the sustainable development office of Batangas State University
