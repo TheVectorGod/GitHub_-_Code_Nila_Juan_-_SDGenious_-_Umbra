@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SDG Research Analyzer</title>
+    <style>
+        :root {
+            --bg-color: #1a1a1a;
+            --sidebar-bg: #222222;
+            --container-bg: #2b2b2b;
+            --accent-blue: #339af0;
+            --accent-green: #51cf66;
+            --accent-gold: #ffaa00;
+            --text-main: #ffffff;
+            --text-muted: #a0a0a0;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            display: flex; 
+            height: 100vh;
+            width: 100vw;
+            margin: 0;
+            overflow: hidden;
+        }
+        
+        .sidebar { 
+            width: 260px; 
+            min-width: 260px; 
+            flex-shrink: 0;    
+            background-color: var(--sidebar-bg); 
+            padding: 30px 20px; 
+            display: flex; 
+            flex-direction: column; 
+            border-right: 1px solid #333; 
+            height: 100vh;
+            box-sizing: border-box; 
+        }
+
+        .logo-container {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0;
+            margin-bottom: 10px;
+            flex-shrink: 0; 
+        }
+
+        .logo-container img {
+            width: 80%; 
+            filter: drop-shadow(0 4px 8px rgba(0,0,0,0.3)); 
+            transition: transform 0.3s ease;
+        }
+
+        .logo-container img:hover {
+            transform: scale(1.05); 
+        }
+
+        .sidebar h2 { margin-bottom: 40px; text-align: center; color: var(--accent-blue); }
+        .sidebar button { 
+            background-color: #333; 
+            margin-bottom: 10px; 
+            padding: 12px; 
+            border-radius: 8px; 
+            color: white; 
+            border: 1px solid #444; 
+            cursor: pointer; 
+            transition: 0.3s; 
+            font-weight: bold; 
+            width: 100%;
+        }
+
+        .sidebar button:first-of-type{margin-top: 5px;}
+        .sidebar button:hover { background-color: var(--accent-blue); border-color: var(--accent-blue); }
+
+        /* MAIN CONTENT AREA */
+        .main-content { flex: 1; padding: 40px; overflow-y: auto; display: flex; justify-content: center; align-items: flex-start; }
+        
+        .dashboard-grid { 
+            display: grid; 
+            grid-template-columns: 1.2fr 0.8fr;  
+            gap: 30px; 
+            width: 100%; 
+            max-width: 1200px; 
+        }
+
+        /* PUBLIC HUB */
+        .public-hub { 
+            background-color: var(--container-bg); 
+            padding: 30px; 
+            border-radius: 15px; 
+            display: flex; 
+            flex-direction: column; 
+            border: 1px solid #333;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+        }
+        input[type="text"] { 
+            width: 100%; 
+            padding: 15px; 
+            margin-bottom: 20px; 
+            border-radius: 8px; 
+            border: 1px solid #444; 
+            background-color: #1a1a1a; 
+            color: white; 
+            box-sizing: border-box;
+        }
+        .analyze-btn { 
+            background-color: var(--accent-blue); 
+            color: white; 
+            border: none; 
+            padding: 15px; 
+            border-radius: 8px; 
+            font-weight: bold; 
+            cursor: pointer; 
+            transition: 0.3s;
+        }
+        .analyze-btn:hover { background-color: #228be6; }
+
+        /* PRO SUITE */
+        .pro-suite { 
+            background: linear-gradient(145deg, #2b2b2b, #1a1a1a); 
+            padding: 30px; 
+            border-radius: 15px; 
+            border: 2px solid var(--accent-gold);  
+            display: flex; 
+            flex-direction: column; 
+            box-shadow: 0 0 20px rgba(255, 170, 0, 0.1);
+        }
+        .pro-suite h2 { color: var(--accent-gold); margin-top: 0; }
+        .premium-feature-card { 
+            background: rgba(255, 255, 255, 0.05); 
+            margin-bottom: 15px; 
+            padding: 20px; 
+            border-radius: 10px; 
+            text-align: left; 
+            cursor: pointer; 
+            transition: 0.3s; 
+            border: 1px solid transparent; 
+        }
+        .premium-feature-card:hover { background: rgba(255, 255, 255, 0.1); border-color: var(--accent-gold); }
+        .lock-icon { float: right; font-size: 18px; }
+
+        /* MODALS */
+        .modal { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.8); justify-content: center; align-items: center; z-index: 1000; }
+        .modal-content { background-color: var(--container-bg); padding: 30px; border-radius: 15px; width: 90%; max-width: 600px; max-height: 80vh; overflow-y: auto; }
+        .close-btn { float: right; cursor: pointer; color: #ff6b6b; font-weight: bold; font-size: 22px; }
+
+        .modal-content input {
+            width: 100%;
+            padding: 16px 20px;
+            margin-bottom: 15px;
+            border-radius: 12px; 
+            background-color: #121212; 
+            color: #ffffff;
+            border: 2px solid #333; 
+            font-size: 16px;
+            box-sizing: border-box;
+            transition: all 0.3s ease;
+            outline: none;
+        }
+
+        .modal-content input:focus {
+            border-color: var(--accent-blue);
+            box-shadow: 0 0 10px rgba(51, 154, 240, 0.2);
+            background-color: #1a1a1a;
+        }
+
+        .modal-content input::placeholder {
+            color: #666;
+            font-size: 14px;
+        }
+
+
+        .modal-content .analyze-btn {
+            height: 55px; 
+            font-size: 16px;
+            letter-spacing: 0.5px;
+            margin-top: 5px;
+            border-radius: 12px;
+}
+        
+        /* RESULTS */
+        .result-card { margin-top: 25px; padding: 20px; background-color: #1a1a1a; border-radius: 8px; text-align: left; display: none; }
+        .status-Overused { color: #ff6b6b; font-weight: bold; }
+        .status-Underexplored { color: #51cf66; font-weight: bold; }
+        .status-Balanced { color: #339af0; font-weight: bold; }
+    </style>
+</head>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<body>
+
+    <div class="sidebar">
+        <h2>SDG Analyzer</h2>
+
+        <div class="logo-container" style="text-align: center; margin-bottom: 30px;">
+            <img src="logo.png" alt="SDG Logo" style="max-width: 180px; height: auto; border-radius: 10px;">
+        </div>
+
+        <button onclick="showTitles('bscs')">BSCS Titles</button>
+        <button onclick="showTitles('bsit')">BSIT Titles</button>
+        <button onclick="showDistribution()">SDG Distribution %</button>
+
+        <div id="accountSection" style="margin-top: 20px; padding-top: 20px; border-top: 1px solid #444; display: none;">
+            <h3 style="font-size: 12px; color: var(--accent-gold); text-transform: uppercase; margin-bottom: 15px;">Account Management</h3>
+            
+            <button onclick="viewSavedTitles()" style="width: 100%; font-size: 13px;">📋 My Saved Titles</button>
+            
+            <div id="savedTitlesContainer" style="margin-top: 10px; max-height: 250px; overflow-y: auto; display: none;">
+                <ul id="savedTitlesList" style="list-style: none; padding: 0; font-size: 11px;"></ul>
+            </div>
+        </div>
+
+        <div id="authBtnContainer" style="margin-top: auto;">
+            <button id="loginBtn" onclick="openLoginModal()" style="background-color: var(--accent-blue); width: 100%;">Login</button>
+            <button id="logoutBtn" onclick="forceLogout()" style="display:none; background-color: #ff6b6b; width: 100%;">Logout</button>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div class="dashboard-grid">
+            
+            <div class="public-hub">
+                <h2 style="color: var(--accent-blue);">Public Analyzer Hub</h2>
+                <p style="color: var(--text-muted);">Guest access allowed for standard SDG classification.</p>
+                
+                <input type="text" id="thesisTitle" placeholder="Enter thesis title here...">
+                <button class="analyze-btn" onclick="analyzeData()">Run Standard Analysis</button>
+
+                <div class="result-card" id="resultCard">
+                    <h3>Classification: <span id="sdgResult"></span></h3>
+                    <p>Market Status: <span id="statusResult"></span></p>
+                    <hr style="border-color: #444; margin: 15px 0;">
+                    <p id="adviceResult"></p>
+                    <button class="analyze-btn" style="background-color: var(--accent-green); margin-top: 10px;" onclick="saveTitle()">Save to My Titles</button>
+                </div>
+            </div>
+
+            <div class="pro-suite">
+                <h2>✨ Pro Suite</h2>
+                <p style="color: var(--text-muted); font-size: 13px; margin-bottom: 20px;">Exclusive AI tools for advanced research.</p>
+
+            <div class="premium-feature-card" onclick="handlePremiumAction('similarity')">
+                <span class="lock-icon" id="lock-similarity">🔒</span>
+                <strong>Similarity Engine</strong>
+                <p style="font-size: 11px; color: #888; margin: 5px 0 0 0;">Check against existing BSCS/BSIT databases.</p>
+            </div>
+
+            <div class="premium-feature-card" onclick="handlePremiumAction('insights')">
+                <span class="lock-icon" id="lock-insights">🔒</span>
+                <strong>Market Insights</strong>
+                <p style="font-size: 11px; color: #888; margin: 5px 0 0 0;">Trend analysis and likelihood scores.</p>
+            </div>
+
+                <div class="premium-feature-card" style="margin-top: auto; cursor: default;">
+                    <strong>AI Title Generator</strong>
+                    <select id="sdgSelect" style="width: 100%; padding: 10px; margin: 10px 0; background:#1a1a1a; color:white; border: 1px solid #444; border-radius: 5px;">
+                        <option value="">Select Target SDG</option>
+                        <option>SDG 1: No Poverty</option>
+                        <option>SDG 2: Zero Hunger</option>
+                        <option>SDG 3: Good Health</option>
+                        <option>SDG 4: Quality Education</option>
+                        <option>SDG 5: Gender Equality</option>
+                        <option>SDG 6: Clean Water</option>
+                        <option>SDG 7: Clean Energy</option>
+                        <option>SDG 8: Economic Growth</option>
+                        <option>SDG 9: Industry & Innovation</option>
+                        <option>SDG 10: Reduced Inequality</option>
+                        <option>SDG 11: Sustainable Cities</option>
+                        <option>SDG 12: Responsible Consumption</option>
+                        <option>SDG 13: Climate Action</option>
+                        <option>SDG 14: Life Below Water</option>
+                        <option>SDG 15: Life on Land</option>
+                        <option>SDG 16: Peace & Justice</option>
+                        <option>SDG 17: Partnerships</option>
+                    </select>
+                    <button onclick="handlePremiumAction('generate')" style="width:100%; background:var(--accent-gold); border:none; color:black; padding:12px; border-radius:5px; font-weight:bold; cursor:pointer;">
+                        Generate Premium Title
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="loginModal">
+        <div class="modal-content" style="max-width: 400px; text-align: center;">
+            <span class="close-btn" onclick="closeModal('loginModal')">✖</span>
+            <h2>System Login</h2>
+            <input id="username" placeholder="Username" style="margin-bottom: 10px;">
+            <input id="password" type="password" placeholder="Password" style="margin-bottom: 20px;">
+            <button class="analyze-btn" style="width: 100%;" onclick="login()">Login</button>
+            <button class="analyze-btn" style="width: 100%; background: #444; margin-top: 10px;" onclick="register()">Register</button>
+        </div>
+    </div>
+
+    <div class="modal" id="subsModal">
+        <div class="modal-content" style="max-width: 400px; text-align: center;">
+            <span class="close-btn" onclick="closeModal('subsModal')">✖</span>
+            <h2>Unlock Pro Suite</h2>
+            <div class="subs-card" onclick="upgradePlan()">
+                <h3>Pro Plan</h3>
+                <p>₱199/month - Unlimited Access</p>
+            </div>
+            <button onclick="closeModal('subsModal')" style="background:transparent; color:gray; border:none; cursor:pointer; margin-top:15px;">Maybe Later</button>
+        </div>
+    </div>
+
+    <div class="modal" id="dataModal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeModal('dataModal')">✖</span>
+            <h2 id="modalTitle">Data View</h2>
+            <div id="modalBody"></div>
+        </div>
+    </div>
+
+    <script>
+        let token = localStorage.getItem("token") || null;
+        let plan = localStorage.getItem("plan") || "free";
+        let isPremium = (plan === "premium");
+
+        if(token) { updateUIForLoggedIn(); }
+            const Toast = Swal.mixin({
+            toast: true,
+            position: 'top-end',
+            showConfirmButton: false,
+            timer: 3000,
+            timerProgressBar: true,
+            background: '#2b2b2b',
+            color: '#fff',
+            didOpen: (toast) => {
+                toast.addEventListener('mouseenter', Swal.stopTimer)
+                toast.addEventListener('mouseleave', Swal.resumeTimer)
+            }
+        });
+
+        function getSortedSDGKeys(dataObject) {
+            return Object.keys(dataObject).sort((a, b) => {
+                // Extract the number from "SDG X: ..."
+                const getNum = str => {
+                    if (str.startsWith('SDG')) {
+                        return parseInt(str.split(' ')[1].replace(':', ''));
+                    }
+                    return 999;
+                };
+                return getNum(a) - getNum(b);
+            });
+        }
+
+        async function register() {
+            const user = document.getElementById('username').value;
+            const pass = document.getElementById('password').value;
+
+            if (!user || !pass) {
+                return Swal.fire({ icon: 'warning', title: 'Missing Info', text: 'Please enter both username and password.', background: '#2b2b2b', color: '#fff' });
+            }
+
+            try {
+                const res = await fetch('http://127.0.0.1:5000/register', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ username: user, password: pass })
+                });
+
+                const data = await res.json();
+
+                if (res.ok) {
+                    Swal.fire({ icon: 'success', title: 'Account Created', text: data.msg, background: '#2b2b2b', color: '#fff' });
+                    closeModal('loginModal');
+                } else {
+                    Swal.fire({ icon: 'error', title: 'Registration Failed', text: data.msg, background: '#2b2b2b', color: '#fff' });
+                }
+            } catch (e) { 
+                Swal.fire({ icon: 'warning', title: 'Error', text: 'Could not connect to the server.', background: '#2b2b2b', color: '#fff' });
+            }
+        }
+
+        function updateUIForLoggedIn() {
+            document.getElementById("loginBtn").style.display = "none";
+            document.getElementById("logoutBtn").style.display = "block";
+            document.getElementById("accountSection").style.display = "block"; // Show Account Mgmt
+            
+            const userPlan = localStorage.getItem("plan");
+            isPremium = (userPlan === "premium");
+
+            if (isPremium) {
+                const goldColor = "#ffaa00"; 
+                document.getElementById("lock-similarity").innerText = "⭐";
+                document.getElementById("lock-insights").innerText = "⭐";
+                document.getElementById("lock-similarity").style.color = goldColor;
+                document.getElementById("lock-insights").style.color = goldColor;
+                document.querySelector('.pro-suite').style.borderColor = "#51cf66"; 
+            }
+        }
+
+        function forceLogout() {
+            localStorage.clear(); 
+            Toast.fire({ icon: 'info', title: 'Logged out successfully' })
+                .then(() => location.reload());
+        }
+
+        function handlePremiumAction(action) {
+            if(!token) return openLoginModal();
+            if(!isPremium) return document.getElementById('subsModal').style.display = 'flex';
+            
+            if(action === 'similarity') checkSimilarity();
+            if(action === 'insights') getInsights();
+            if(action === 'generate') generateTitle();
+        }
+
+        // --- AUTH ---
+        async function login() {
+            const user = document.getElementById('username').value;
+            const pass = document.getElementById('password').value;
+            try {
+                const res = await fetch('http://127.0.0.1:5000/login', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ username: user, password: pass })
+                });
+                const data = await res.json();
+                if (res.ok) {
+                    localStorage.setItem('token', data.access_token);
+                    localStorage.setItem('plan', data.plan || 'free');
+                    Toast.fire({ icon: 'success', title: 'Welcome back!' })
+                        .then(() => location.reload());
+                } else { 
+                    Swal.fire({ icon: 'error', title: 'Login Failed', text: data.msg, background: '#2b2b2b', color: '#fff' });
+                }
+            } catch (e) { 
+                Swal.fire({ icon: 'warning', title: 'Server Offline', text: 'Please ensure REDO.py is running.', background: '#2b2b2b', color: '#fff' });
+            }
+        }
+
+        async function login() {
+            const user = document.getElementById('username').value;
+            const pass = document.getElementById('password').value;
+            try {
+                const res = await fetch('http://127.0.0.1:5000/login', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ username: user, password: pass })
+                });
+                const data = await res.json();
+                if (res.ok) {
+                    localStorage.setItem('token', data.access_token);
+                    localStorage.setItem('plan', data.plan || 'free');
+                    Toast.fire({ icon: 'success', title: 'Welcome back!' })
+                        .then(() => location.reload());
+                } else { 
+                    Swal.fire({ icon: 'error', title: 'Login Failed', text: data.msg, background: '#2b2b2b', color: '#fff' });
+                }
+            } catch (e) { 
+                Swal.fire({ icon: 'warning', title: 'Server Offline', text: 'Please ensure REDO.py is running.', background: '#2b2b2b', color: '#fff' });
+            }
+        }
+
+        async function upgradePlan() {
+            try {
+                const res = await fetch("http://127.0.0.1:5000/upgrade", {
+                    method: "POST",
+                    headers: { "Authorization": "Bearer " + token }
+                });
+                if (res.ok) {
+                    localStorage.setItem('plan', 'premium');
+                    alert("Upgrade Successful!");
+                    location.reload();
+                }
+            } catch (e) { alert("Upgrade failed."); }
+        }
+
+        // --- ANALYSIS ---
+        async function analyzeData() {
+            const title = document.getElementById('thesisTitle').value.trim();
+            
+            if(!title) {
+                return Swal.fire({
+                    icon: 'warning',
+                    title: 'Empty Analysis',
+                    text: 'Please enter a thesis title to classify its SDG impact.',
+                    background: '#2b2b2b',
+                    color: '#fff',
+                    confirmButtonColor: '#339af0' 
+                });
+            }
+
+            try {
+                const res = await fetch("http://127.0.0.1:5000/analyze", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ title })
+                });
+                
+                if (!res.ok) throw new Error("Analysis failed");
+                
+                const data = await res.json();
+                
+                document.getElementById('resultCard').style.display = 'block';
+                document.getElementById('sdgResult').innerText = data.sdg;
+                
+                const statusSpan = document.getElementById('statusResult');
+                statusSpan.innerText = data.status;
+                
+                statusSpan.className = 'status-' + data.status; 
+                
+                document.getElementById('adviceResult').innerText = data.advice;
+
+                Toast.fire({ icon: 'success', title: 'Analysis complete'});
+
+            } catch(e) { 
+                console.error("Analysis error:", e);
+                Swal.fire({ icon: 'error', title: 'Connection Error', text: 'Could not reach the analysis server. Ensure REDO.py is running.', background: '#2b2b2b', color: '#fff'});
+            }
+        }
+
+        function openLoginModal() {
+            document.getElementById("loginModal").style.display = "flex";
+        }
+
+        function closeModal(id) {
+            const modal = document.getElementById(id);
+            if (modal) {
+                modal.style.display = 'none';
+                if(id === 'loginModal') {
+                    document.getElementById('username').value = "";
+                    document.getElementById('password').value = "";
+                }
+            }
+        }
+
+        window.onclick = function(event) {
+            if (event.target.classList.contains('modal')) {
+                event.target.style.display = "none";
+            }
+        }
+
+        // --- PRO FEATURES ---
+        async function checkSimilarity() {
+            const title = document.getElementById("thesisTitle").value;
+            const res = await fetch("http://127.0.0.1:5000/similarity_check", {
+                method: "POST",
+                headers: { "Content-Type":"application/json", "Authorization":"Bearer " + token },
+                body: JSON.stringify({title})
+            });
+            const data = await res.json();
+            
+            Swal.fire({
+                title: 'Similarity Analysis',
+                html: `<div style="text-align: left;">
+                        <p><b>Score:</b> ${(data.similarity_score * 100).toFixed(0)}%</p>
+                        <p><b>Risk Level:</b> <span style="color: ${data.plagiarism_risk === 'High' ? '#ff6b6b' : '#51cf66'}">${data.plagiarism_risk}</span></p>
+                    </div>`,
+                icon: 'info',
+                background: '#2b2b2b',
+                color: '#fff'
+            });
+        }
+
+        async function getInsights() {
+            const title = document.getElementById("thesisTitle").value.trim();
+            
+            if(!title) {
+                return Swal.fire({
+                    icon: 'info',
+                    title: 'Insights Required',
+                    text: 'We need a thesis title to analyze market trends and approval likelihood.',
+                    background: '#2b2b2b',
+                    color: '#fff'
+                });
+            }
+
+            try {
+                const res = await fetch("http://127.0.0.1:5000/research_insights", {
+                    method: "POST",
+                    headers: { "Content-Type":"application/json", "Authorization":"Bearer " + token },
+                    body: JSON.stringify({title})
+                });
+                const data = await res.json();
+                
+                Swal.fire({
+                    title: 'Market Strategic Insights',
+                    html: `<div style="text-align: left;">
+                            <p><b>Targeted SDG:</b> ${data.sdg}</p>
+                            <p><b>Current Trend:</b> <span style="color:var(--accent-blue)">${data.trend}</span></p>
+                            <p><b>Approval Likelihood:</b> <span style="color:var(--accent-green)">${data.approval_likelihood}</span></p>
+                        </div>`,
+                    icon: 'success',
+                    background: '#2b2b2b',
+                    color: '#fff'
+                });
+            } catch(e) { Toast.fire({ icon: 'error', title: 'Insights unavailable.' }); }
+        }
+
+        async function generateTitle() {
+            const sdg = document.getElementById("sdgSelect").value;
+            
+            if(!sdg) {
+                return Swal.fire({
+                    icon: 'question',
+                    title: 'Select an SDG',
+                    text: 'Please choose a target SDG category to generate a relevant research title.',
+                    background: '#2b2b2b',
+                    color: '#fff'
+                });
+            }
+
+            try {
+                const res = await fetch("http://127.0.0.1:5000/generate_title", {
+                    method: "POST",
+                    headers: { "Content-Type":"application/json", "Authorization":"Bearer " + token },
+                    body: JSON.stringify({ sdg })
+                });
+                const data = await res.json();
+                
+                document.getElementById("thesisTitle").value = data.generated_title;
+                Toast.fire({ icon: 'success', title: 'Smart Title Generated!' });
+            } catch(e) { Toast.fire({ icon: 'error', title: 'Generation failed.' }); }
+        }
+
+        // --- SAVED TITLES LOGIC ---
+
+        async function saveTitle() {
+            if (!token) return openLoginModal();
+            const title = document.getElementById('sdgResult').innerText + ": " + document.getElementById('thesisTitle').value;
+
+            try {
+                const res = await fetch("http://127.0.0.1:5000/save_title", {
+                    method: "POST",
+                    headers: { 
+                        "Content-Type": "application/json",
+                        "Authorization": "Bearer " + token 
+                    },
+                    body: JSON.stringify({ title: title })
+                });
+                const data = await res.json();
+                if (res.ok) {
+                    alert(data.msg);
+                    viewSavedTitles(); // Refresh the list
+                }
+            } catch (e) { alert("Failed to save title."); }
+        }
+
+        async function viewSavedTitles() {
+            if (!token) return openLoginModal();
+            const container = document.getElementById('savedTitlesContainer');
+            const list = document.getElementById('savedTitlesList');
+            
+            container.style.display = "block";
+            list.innerHTML = "<li>Loading...</li>";
+
+            try {
+                const res = await fetch("http://127.0.0.1:5000/my_titles", {
+                    headers: { "Authorization": "Bearer " + token }
+                });
+                const titles = await res.json();
+                
+                list.innerHTML = "";
+                if (titles.length === 0) {
+                    list.innerHTML = "<li style='color:gray;'>No saved titles yet.</li>";
+                    return;
+                }
+
+                titles.forEach(t => {
+                    const li = document.createElement('li');
+                    li.style = "background: #1a1a1a; padding: 8px; border-radius: 5px; margin-bottom: 5px; display: flex; justify-content: space-between; align-items: center;";
+                    li.innerHTML = `
+                        <span>${t}</span>
+                        <span onclick="deleteSavedTitle('${t}')" style="color:var(--red); cursor:pointer; font-weight:bold; margin-left:10px;">✕</span>
+                    `;
+                    list.appendChild(li);
+                });
+            } catch (e) { list.innerHTML = "<li>Error loading titles.</li>"; }
+        }
+
+        async function deleteSavedTitle(titleText) {
+            Swal.fire({
+                title: 'Remove Title?',
+                text: "This title will be deleted from your library.",
+                icon: 'warning',
+                showCancelButton: true,
+                confirmButtonColor: '#ff6b6b',
+                cancelButtonColor: '#444',
+                confirmButtonText: 'Yes, delete it!',
+                background: '#2b2b2b',
+                color: '#fff'
+            }).then(async (result) => {
+                if (result.isConfirmed) {
+                    try {
+                        const res = await fetch("http://127.0.0.1:5000/delete_title", {
+                            method: "POST",
+                            headers: { "Content-Type": "application/json", "Authorization": "Bearer " + token },
+                            body: JSON.stringify({ title: titleText })
+                        });
+                        if (res.ok) {
+                            Toast.fire({ icon: 'success', title: 'Title deleted' });
+                            viewSavedTitles();
+                        }
+                    } catch (e) { Toast.fire({ icon: 'error', title: 'Delete failed' }); }
+                }
+            });
+        }
+
+        // --- HELPERS ---
+        async function showTitles(major) {
+            document.getElementById('modalTitle').innerText = major.toUpperCase() + " Database";
+            const body = document.getElementById('modalBody');
+            body.innerHTML = "Loading...";
+            document.getElementById('dataModal').style.display = 'flex';
+
+            try {
+                const response = await fetch(`http://127.0.0.1:5000/get_titles/${major}`);
+                const data = await response.json();
+                body.innerHTML = "";
+
+                // Use the new sorting helper
+                const sortedKeys = getSortedSDGKeys(data);
+
+                for (const sdg of sortedKeys) {
+                    let html = `<div style="background:#1a1a1a; padding:15px; border-radius:8px; margin-bottom:10px;">
+                                <h4 style="color:#339af0; margin:0;">📁 ${sdg}</h4><ul style="margin:10px 0 0 0; padding-left:20px;">`;
+                    data[sdg].forEach(t => html += `<li>${t}</li>`);
+                    body.innerHTML += html + `</ul></div>`;
+                }
+            } catch (e) { body.innerHTML = "Error loading titles."; }
+        }
+
+        async function showDistribution() {
+            document.getElementById('modalTitle').innerText = "Global SDG Distribution";
+            const body = document.getElementById('modalBody');
+            body.innerHTML = "Loading...";
+            document.getElementById('dataModal').style.display = 'flex';
+
+            try {
+                const response = await fetch(`http://127.0.0.1:5000/get_distribution`);
+                const data = await response.json();
+                body.innerHTML = "";
+
+                const sortedKeys = getSortedSDGKeys(data);
+
+                for (const sdg of sortedKeys) {
+                    const percent = data[sdg];
+                    body.innerHTML += `<div style="margin-bottom:15px;">
+                        <div style="display:flex; justify-content:space-between;"><span>${sdg}</span><b>${percent}%</b></div>
+                        <div style="width:100%; background:#1a1a1a; height:8px; border-radius:4px; margin-top:5px;">
+                            <div style="width:${percent}%; background:#339af0; height:100%; border-radius:4px;"></div>
+                        </div></div>`;
+                }
+            } catch (e) { body.innerHTML = "Error loading stats."; }
+        }
+    </script>
+</body>
+</html>

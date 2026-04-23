@@ -1,0 +1,215 @@
+SDG 2: Zero Hunger
+BSCS 018 | Malabanan's farm record keeping and sales computation system
+BSCS 132 | Jesmil piggery farm management system
+BSCS 199 | Deep learning models for rice seed detection
+BSCS 206 | Prediction of food security in the Philippines
+BSCS 235 | Small fruit detection using Faster R-CNN
+
+SDG 3: Good Health and Well-being
+BSCS 024 | Lifesaver ver.1.1
+BSCS 040 | Philippine medical drugs interactive search
+BSCS 045 | Philippine herbal medicines
+BSCS 047 | Public access information system of Mary Mediatrix Medical System
+BSCS 053 | Computerized system of Salazar Polyclinic
+BSCS 130 | Hospital consultation using decision tree
+BSCS 180 | Diabetes classification using ML
+BSCS 186 | OCR in medicine blister packs
+BSCS 188 | Attentiveness detection via YOLOv5
+BSCS 196 | Tympanic membrane disease classification
+BSCS 197 | Cancer classification using CNN
+BSCS 207 | Melanoma detection using ESRGAN
+BSCS 228 | Atopic dermatitis detection
+BSCS 233 | Breast cancer classification
+BSCS 241 | MRI compression using CNN
+BSCS 245 | Tuberculosis detection via cough
+BSCS 249 | Glaucoma detection model
+BSCS 252 | Bacterial image clustering
+
+SDG 4: Quality Education
+BSCS 004 | Library circulation system
+BSCS 005 | Computerized education system
+BSCS 008 | Kid learning software
+BSCS 012 | Scholarship system
+BSCS 013 | Grading system
+BSCS 017 | Faculty appraisal system
+BSCS 019 | Vocabulary game
+BSCS 021 | Library management system
+BSCS 025 | Honors list system
+BSCS 026 | Philippine encyclopedia
+
+BSCS 030 | Hardware link: A computer aided instruction (CAI) software for PC troubleshooting
+BSCS 034 | Computer assisted national secondary assessment test (NSAT) reviewer 
+BSCS 038 | Cyberkids Li'l school, an interactive CD for kids ages 3-6 
+BSCS 061 | BSU online pre-enrollment system BSCS 064 | Grade verification system via WAP 
+BSCS 065 | BSU electronic grade submission (EGS) 
+BSCS 071 | Intelligent tutoring system in computer ethics 
+BSCS 072 | Online graduate tracer of Batangas State University 
+BSCS 073 | BSU E-learning tool 
+BSCS 074 | AACCUP software 
+BSCS 075 | E-learning on computer organization and architecture 
+BSCS 076 | Web-based comprehensive examination builder for the ICS department 
+BSCS 081 | WEB-based BSU scholarship evaluation and information system 
+BSCS 086 | Learning facility for ICS department of Batangas State University 
+BSCS 088 | Educ tools – a design of educational JOOMLA theme and extension 
+BSCS 089 | Biyaheng Batangas: 3D edutainment travel guide 
+BSCS 091 | Treasure hunter-3D educational game 
+BSCS 100 | Pop Duo: android based mathematical kiddie game 
+BSCS 101 | Android based genetic spider game 
+BSCS 116 | ICS 3D quiz game
+BSCS 122 | Online student organization and activities management system 
+BSCS 123 | Number system dash: A 3D android game 
+BSCS 127 | College ICS student attendance and grading system 
+BSCS 133 | C++ basics for kids 
+BSCS 134 | BSIT program track allocation via Gale-Shapley algorithm 
+BSCS 146 | American accent pronunciation trainer using Google Voice API with genetic algorithm 
+BSCS 149 | Faculty merit point system 
+BSCS 151 | Smart seat app: attendance, performance record and auto compute grade 
+BSCS 158 | Student monitoring mobile app for BatStateU Main II via student information system 
+BSCS 159 | Queuing system for enrollment evaluation with integration to the student information system 
+BSCS 160 | Enrollment queuing system with SMS notification 
+BSCS 184 | Language translator: translation of Tagalog to Waray using natural language processing 
+BSCS 202 | The use of supervised machine learning agents in virtual driving learning simulation 
+BSCS 204 | An optimized solution to the class scheduling problem in universities using a heuristic gene-based genetic algorithm 
+BSCS 213 | Waste segregation system of biodegradable and non-biodegradable for young learners using YOLO V5 
+BSCS 225 | Automatic speech recognition model of Filipino-English code-switching using conformer-transducer with transfer learning 
+BSCS 234 | Enhancing pre-training of Tagalog BERT with whole word masking and token-aware contrastive learning 
+
+SDG 6 — Clean Water and Sanitation 
+BSCS 046 | Computerized electric, water billing and monitoring system of municipality of Bauan 
+BSCS 096 | Digital water meter management 
+BSCS 167 | Automated sprinkler using soil moisture sensor with online monitoring system 
+
+SDG 7 — Affordable and Clean Energy 
+BSCS 083 | PC-based RF controlled solar powered camera rover 
+BSCS 115 | Development of a web interface for the powerhouse light module 
+
+SDG 8 — Decent Work and Economic Growth 
+BSCS 002 | Bels billing system 
+BSCS 022 | A cybernated inventory system of General Milling Corporation 
+BSCS 023 | Pension plan proposal generation of Pet Plans Inc., Batangas Branch 
+BSCS 048 | An e-commerce capable web page of Sorosoro Ibaba Development Cooperative (SIDC) 
+BSCS 050 | Limcoma online – proposed web site for Lipa City multi-purpose cooperative marketing association 
+BSCS 054 | Automated inventory and payroll system of Sunshine Donut Corporation 
+BSCS 057 | Web-enabled reservation for the promotion of Harbor View Resort 
+BSCS 060 | Tambunting computerized pawning system 
+BSCS 093 | BatStateU employee's payslip through SMS 
+BSCS 094 | BatStateU hostel's online reservation 
+BSCS 098 | An E-commerce site for Royal Star Appliance Marketing, Inc. 
+BSCS 113 | Mobile BIR tax calculator 
+BSCS 128 | Payroll system of Jesus of Nazareth Hospital with android application 
+BSCS 131 | Store locator application on web and mobile for Batangas City old public market 
+BSCS 138 | PANDEROULETTE: An android application for kambal pandesal 
+BSCS 173 | Resume classifier using natural language processing 
+BSCS 187 | Fakeshoenet: a hyper tuned sound classification of fake and authentic shoes using CNN 
+BSCS 190 | Dayton hotel reservation management system 
+BSCS 192 | A scaler techniques to predict shoppers' purchasing intention on Amazon using machine learning 
+BSCS 221 | Integrated recognition, intelligent surveillance: PPE detection in laboratory environments using YOLO transfer learning 
+BSCS 224 | Enhanced E-commerce fake product review detection using SVM with aspect-based sentiment analysis 
+BSCS 242 | Enhanced multinomial naive bayes for classification of urgency queries in customer support emails 
+
+SDG 9 — Industry, Innovation and Infrastructure 
+BSCS 058 | Smart card controlled vehicular gate apparatus 
+BSCS 059 | YAGI WIFI Directional Antenna 
+BSCS 062 | Development of Winsock chat program for local area network 
+BSCS 063 | Development of voice encryption and decryption software 
+BSCS 066 | Z8 micro-controller unit (MCU) trainer 
+BSCS 067 | Automated self-ordering system using touch screen technology 
+BSCS 079 | Touch screen cell-phone vendo charger 
+BSCS 080 | Design and development of visitor counter and security alarm 
+BSCS 084 | BSU online storage system 
+BSCS 105 | Router-based captive portal for BSU Main Campus II 
+BSCS 106 | Data mining application for information retrieval in the BatStateU database system 
+BSCS 108 | Mobile video chat via WLAN 
+BSCS 120 | Mobile distance measuring application 
+BSCS 161 | Development of GPS tracking device using Arduino 
+BSCS 170 | Sentiment analysis using bags-of-words model for natural language processing
+BSCS 189 | Application of reinforcement learning for optimization of traffic light systems using SUMO 
+BSCS 191 | Comparative analysis of deep learning techniques for image segmentation on road disturbances 
+BSCS 193 | Deep learning application using YOLO algorithm and spatiotemporal analysis for smart traffic sign recognition 
+BSCS 200 | Amelioration of the k-means clustering algorithm by relevantly selecting the initial centroids 
+BSCS 209 | Optimization of support vector machine algorithm using gradient boosting technique 
+BSCS 214 | One-way traffic light control system using real-time optimization with YOLOv5
+BSCS 216 | Comparative analysis of semantic segmentation techniques for aerial images 
+BSCS 217 | Taglish text emotion classification using various machine learning algorithms 
+BSCS 232 | Design of cost-effective and standardized system architecture for CV and ML technologies 
+BSCS 236 | Enhancement of real-time adaptive pathfinding algorithm using real-time obstruction 
+BSCS 237 | Enhancing melodic similarity detection with MelDet: a similarity scoring approach 
+BSCS 238 | Enhanced semantic segmentation of lane markings: a deep learning approach 
+BSCS 240 | Optimizing YOLOv8 instance segmentation accuracy and resource efficiency in low-light scenarios 
+BSCS 250 | Enhanced data management through chunk-based compression and encryption using Huffman coding and AES-128 
+BSCS 254 | Enhancing 3D printing efficiency through non-periodic infill using Penrose geometry 
+
+SDG 10 — Reduced Inequalities BSCS 081 | WEB-based BSU scholarship evaluation and information system 
+BSCS 119 | Voice based email for visual impairment BSCS 141 | Sign language translator for commonly used Tagalog phrases 
+BSCS 153 | Android sign language using voice conversion system and brute force algorithm 
+BSCS 184 | Language translator: translation of Tagalog to Waray using natural language processing 
+
+SDG 11 — Sustainable Cities and Communities 
+BSCS 035 | Electronic map of Lipa City proper 
+BSCS 041 | Lipa City multimedia almanac 
+BSCS 044 | Informational map of Caedo commercial center 
+BSCS 051 | Location map software of second district of Batangas 
+BSCS 068 | Campus locator of Batangas State University (Alangilan Campus) 
+BSCS 069 | Barangay Poblacion West, Alitagtag, Batangas information system 
+BSCS 092 | Online public transportation guide for Batangas City proper 
+BSCS 117 | Ala-Eh, iTravel Batangas City – an android game using collision detection algorithm 
+BSCS 124 | Cloud assisted mobile barangay information system for Brgy. Sta. Rita Karsada 
+BSCS 125 | Cemetery mapping application for Dwell Memorial Park Inc. 
+BSCS 142 | Fire alarm system using smoke detection applying image processing 
+BSCS 157 | Traffic monitoring system for Batangas City 
+BSCS 162 | Click-N-Go Batangas: a transport service using geodistance and geolocation API 
+BSCS 164 | Traffic mobile app in Batangas City 
+BSCS 165 | Traffic monitoring mobile application for TDRO Batangas City 
+BSCS 166 | Smoke detection for fire alarm using computer vision and image processing 
+BSCS 172 | Web-based location of evacuation centers for disasters 
+BSCS 175 | Disaster detection of images on Instagram using sandbox 
+BSCS 176 | The big one: An earthquake simulation game with machine learning agents 
+BSCS 178 | Visualization of fire incident using rule based algorithm 
+BSCS 179 | Speed limit violators detection using image processing 
+BSCS 210 | A comparative application of A* and Dijkstra's algorithm: a classroom evacuation simulation 
+BSCS 239 | EMERGE: emergency-related reporting with ML-enhanced verification and geospatial efficiency 
+
+SDG 12 — Responsible Consumption and Production 
+BSCS 213 | Waste segregation system of biodegradable and non-biodegradable for young learners using YOLO V5 
+BSCS 230 | Compressed and adversarially robust solid waste image classification model 
+BSCS 243 | Attention free hunter-prey optimization for the garbage route collection problem 
+
+SDG 14 — Life Below Water 
+BSCS 181 | Submerged marine debris detection and classification using deep learning approach 
+BSCS 215 | Fusion-based approach for white spot disease detection in freshwater fish using image processing and machine learning 
+
+SDG 15 — Life on Land 
+BSCS 018 | Malabanan's farm record keeping and sales computation system 
+BSCS 132 | Jesmil piggery farm management system 
+BSCS 167 | Automated sprinkler using soil moisture sensor with online monitoring system 
+BSCS 199 | A comparative analysis of deep learning models for rice seed detection and their relationship with rice field productivity 
+BSCS 206 | Prediction of food security in the Philippines using time series forecasting 
+BSCS 215 | Fusion-based approach for white spot disease detection in freshwater fish 
+BSCS 235 | Enhance small fruit detection using faster R-CNN 
+
+SDG 16 — Peace, Justice and Strong Institutions 
+BSCS 070 | File Secure: encryption-decryption BSCS 082 | Face recognition for log-in/log-out system 
+BSCS 090 | File secrecy using cryptography and stenography techniques 
+BSCS 099 | Facial composite system 
+BSCS 102 | Face recognition using principal component analysis algorithm for computer lock 
+BSCS 104 | Design and development of a mobile class record android application 
+BSCS 129 | BatStateU document tracking system 
+BSCS 135 | File security: access control system with two factor authentication 
+BSCS 154 | Comparative analysis of detecting malicious program using MLP of ANN and SVM algorithm 
+BSCS 163 | Software authenticity checker 
+BSCS 168 | File secrecy for encryption and decryption in security verification 
+BSCS 182 | Sentipivot: a novel rule-based approach for sentiment classification 
+BSCS 195 | Covid-19 misinformation detection on Tagalog text using NLP techniques 
+BSCS 198 | Implementing quicksort's concept to classify sentiments in tweets with consideration of emojis 
+BSCS 203 | T-DES-X: modification of the triple-DES algorithm by means of round reduction 
+BSCS 205 | Generalized tree parity machine on advanced encryption standard algorithm with RGB color values
+BSCS 208 | Deep learning multimodal analysis of offensive content on image macro memes 
+BSCS 211 | File cryptography using symmetric and asymmetric hybrid encryption algorithm 
+BSCS 218 | Comparative analysis of fingerprint identification using edge detection techniques 
+BSCS 220 | Enhanced self-supervised spoofed audio deepfake detection using neural network methods 
+BSCS 226 | SMS phishing detection using hybrid deep learning algorithms 
+BSCS 229 | A two-way k-shot learning approach using siamese neural network for multilingual offline forgery recognition 
+BSCS 231 | Comparative analysis of various machine learning models for forecasting criminal activities 
+BSCS 246 | Grayscale QR code encoding for secure and dual-purpose data transmission 
+BSCS 247 | Snake venom metaheuristic enhancement for pathfinding in cybersecurity penetration testing 
+BSCS 248 | Harmonic feature chording for behavioral pattern discovery in network intrusion datasets
