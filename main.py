@@ -11,6 +11,7 @@ import os
 import random
 
 app = Flask(__name__)
+app.run(host="0.0.0.0", port=5000)
 CORS(app) 
 
 app.config["JWT_SECRET_KEY"] = "this-is-a-very-long-and-secure-32-byte-key-14457600234943576931" 
