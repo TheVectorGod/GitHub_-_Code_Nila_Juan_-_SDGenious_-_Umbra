@@ -354,20 +354,20 @@
         async function register() {
             const user = document.getElementById('username').value;
             const pass = document.getElementById('password').value;
-
+        
             if (!user || !pass) {
                 return Swal.fire({ icon: 'warning', title: 'Missing Info', text: 'Please enter both username and password.', background: '#2b2b2b', color: '#fff' });
             }
-
+        
             try {
                 const res = await fetch(`${API_BASE_URL}/register`, {
-                        method: 'POST',
-                        headers: { 'Content-Type': 'application/json' },
-                        body: JSON.stringify({ title })
-                    });
-
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ username: user, password: pass })
+                });
+        
                 const data = await res.json();
-
+        
                 if (res.ok) {
                     Swal.fire({ icon: 'success', title: 'Account Created', text: data.msg, background: '#2b2b2b', color: '#fff' });
                     closeModal('loginModal');
@@ -382,7 +382,7 @@
         function updateUIForLoggedIn() {
             document.getElementById("loginBtn").style.display = "none";
             document.getElementById("logoutBtn").style.display = "block";
-            document.getElementById("accountSection").style.display = "block"; // Show Account Mgmt
+            document.getElementById("accountSection").style.display = "block";
             
             const userPlan = localStorage.getItem("plan");
             isPremium = (userPlan === "premium");
