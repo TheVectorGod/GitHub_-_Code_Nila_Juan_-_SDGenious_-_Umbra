@@ -11,7 +11,6 @@ import os
 import random
 
 app = Flask(__name__)
-app.run(host="0.0.0.0", port=5000)
 CORS(app) 
 
 app.config["JWT_SECRET_KEY"] = "this-is-a-very-long-and-secure-32-byte-key-14457600234943576931" 
@@ -348,4 +347,4 @@ def upgrade():
     return jsonify({"msg": "Upgraded to premium successfully"}), 200
 
 if __name__ == '__main__':
-    app.run(debug=True, port=5000)
+    app.run(host="0.0.0.0", port=5000)
