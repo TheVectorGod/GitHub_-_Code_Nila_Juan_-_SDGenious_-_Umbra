@@ -359,11 +359,11 @@
             }
 
             try {
-                const res = await fetch('http://127.0.0.1:5000/register', {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({ username: user, password: pass })
-                });
+                const res = await fetch('https://your-ngrok-url.ngrok-free.app/analyze', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ title })
+                    });
 
                 const data = await res.json();
 
